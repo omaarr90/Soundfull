@@ -1,0 +1,6 @@
+framework module FillableLoaders {
+  umbrella header "FillableLoaders-umbrella.h"
+
+  export *
+  module * { export * }
+}
