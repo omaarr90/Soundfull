@@ -11,10 +11,8 @@ import MagicalRecord
 
 class ModelFacad: NSObject {
     
-    class func saveAudioWithTitle(title: String, andCategory category: String, atURL url: NSURL) -> Bool {
-        guard let destinationPath = SoundfullFileManager.persistURL(url) else {
-            return false
-        }
+    class func saveAudioWithTitle(title: String, andCategory category: String, withData data: NSData) -> Bool {
+        let destinationPath = SoundfullFileManager.saveData(data, withfileName: "\(title)\(category).m4a")
         
         let audioFile = AudioFile.MR_createEntity()
         audioFile?.title = title

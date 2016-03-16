@@ -79,9 +79,9 @@ class LandingViewController: UIViewController {
         
         let centerY = NSLayoutConstraint(item: smc, attribute: .CenterY, relatedBy: .Equal, toItem: self.view, attribute: .CenterY, multiplier: 1.0, constant: 0.0)
         
-        let widthConstraint = NSLayoutConstraint(item: smc, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 350)
+        let widthConstraint = NSLayoutConstraint(item: smc, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 300)
         
-        let heightConstraint = NSLayoutConstraint(item: smc, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 370)
+        let heightConstraint = NSLayoutConstraint(item: smc, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 320)
         
         self.view.addConstraints([centerX, centerY, widthConstraint, heightConstraint])
         
@@ -106,6 +106,12 @@ class LandingViewController: UIViewController {
             self.soundfullMainControl.alpha = 0.0
             self.loadingView.alpha = 1.0
             },completion: nil)
+    }
+    
+    private func registerNotifications() {
+        let settings = UIUserNotificationSettings(forTypes: [.Sound, .Alert, .Badge], categories: nil)
+        
+        UIApplication.sharedApplication().registerUserNotificationSettings(settings)
     }
 }
 
@@ -150,6 +156,7 @@ extension LandingViewController: MusicClientDelegate {
     
     func musicClient(downloader: MusicDownloaderClient, didChangeStatus status: MusicDownloaderClientStatus)
     {
+        self.registerNotifications()
         self.showLoadingView()
         switch status {
         case .Preparing:
@@ -177,10 +184,17 @@ extension LandingViewController: MusicClientDelegate {
     {
         self.showMainControl()
 
-        if ModelFacad.saveAudioWithTitle(self.musicTitle, andCategory: self.musicCategory, atURL: location) {
-            // send notifications
-        } else {
+        do {
+            let fh = try NSFileHandle(forReadingFromURL: location)
+            let fileData = fh.availableData
+            ModelFacad.saveAudioWithTitle(self.musicTitle, andCategory: self.musicCategory, withData: fileData)
+                // send notifications
+            SoundfullNotificationManager.sharedManager.scheduleNotification()
+ 
+        }
+        catch _ {
             self.showErrorAlertWithMessage(NSLocalizedString("Could not save music", comment: ""))
         }
     }
+        
 }

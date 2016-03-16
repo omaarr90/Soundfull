@@ -21,6 +21,7 @@ class DownloadMusicViewController: UIViewController {
     
     @IBOutlet weak var titleTextField: SoundfullTextField!
     
+    @IBOutlet weak var bottomButtunConstraints: NSLayoutConstraint!
     
     var delegate: DownloadMusicViewControllerDelegate?
 
@@ -32,6 +33,21 @@ class DownloadMusicViewController: UIViewController {
         self.titleTextField.soundfullPlaceholder = NSLocalizedString("Title", comment: "")
         self.categoryTextField.soundfullPlaceholder = NSLocalizedString("Category", comment: "")
         self.downloadButton.setTitle("Download", forState: .Normal)
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillShow:"), name: UIKeyboardWillShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillHide:"), name: UIKeyboardWillHideNotification, object: nil)
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: UIKeyboardWillShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: UIKeyboardWillHideNotification, object: nil)
     }
     
     override func didReceiveMemoryWarning() {
@@ -39,6 +55,28 @@ class DownloadMusicViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func keyboardWillShow(note: NSNotification) {
+        let info = note.userInfo!
+        let keyboardFrame: CGRect = (info[UIKeyboardFrameEndUserInfoKey] as! NSValue).CGRectValue()
+
+        let animationDuration = info[UIKeyboardAnimationDurationUserInfoKey] as! Double
+
+        self.bottomButtunConstraints.constant = keyboardFrame.size.height + 10
+
+        UIView.animateWithDuration(animationDuration, animations: { () -> Void in
+            self.view.layoutIfNeeded()
+        })
+
+    }
+
+    func keyboardWillHide(note: NSNotification) {
+        self.bottomButtunConstraints.constant = 40
+        UIView.animateWithDuration(0.1, animations: { () -> Void in
+            self.view.layoutIfNeeded()
+        })
+
+    }
+
     @IBAction func downloadButtonClicked(sender: SoundfullButton, forEvent event: UIEvent)
     {
         if validateInput() {

@@ -15,7 +15,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="499" height="127.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ue5-Qt-sa7">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ue5-Qt-sa7" customClass="UIControl">
                         <rect key="frame" x="0.0" y="125" width="499" height="2"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>

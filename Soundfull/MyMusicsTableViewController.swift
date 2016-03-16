@@ -21,6 +21,8 @@ class MyMusicsTableViewController: UITableViewController {
         
         self.musics = ModelFacad.allAudioFile()
         self.tableView.separatorStyle = .None
+        
+        UIApplication.sharedApplication().applicationIconBadgeNumber = 0
     }
 
     override func didReceiveMemoryWarning() {

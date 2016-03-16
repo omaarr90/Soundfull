@@ -11,17 +11,20 @@ private let musiceDirectory = "/Musics"
 
 class SoundfullFileManager: NSObject {
     
-    class func persistURL(url: NSURL) -> String? {
-        let fileName = url.lastPathComponent!
-        let fullPath = NSFileManager.musicDirectory().stringByAppendingString("/\(fileName)")
-        let destinationURL = NSURL(fileURLWithPath: fullPath)
-        do {
-            try NSFileManager.defaultManager().moveItemAtURL(url, toURL: destinationURL)
-            return fullPath
-        } catch let error as NSError {
-            print(error.localizedDescription)
-            return nil
-        }
+    class func saveData(data: NSData, withfileName fileName: String) -> String? {
+        let fullPath = NSFileManager.musicDirectory().stringByAppendingString("\(fileName)")
+        
+        data.writeToFile(fullPath, atomically: true)
+        
+        return fullPath
+
+    }
+    
+    class func getMusicDataForFileName(fileName: String) -> NSData {
+        let fullFilePath = NSFileManager.musicPath.stringByAppendingString(fileName)
+        
+        let data = NSData(contentsOfFile: fullFilePath)
+        return data!
     }
     
     class func deleteatPath(path: String) {

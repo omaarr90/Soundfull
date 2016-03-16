@@ -20,6 +20,7 @@
 		1D20AAA81C80849500DF96BD /* SoundfullNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20AAA71C80849500DF96BD /* SoundfullNavigationViewController.swift */; };
 		1D20AAAC1C8087B000DF96BD /* SoundfullNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20AAAB1C8087B000DF96BD /* SoundfullNavigationDelegate.swift */; };
 		1D20AAAE1C8089C200DF96BD /* SoundfullMainControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D20AAAD1C8089C200DF96BD /* SoundfullMainControl.xib */; };
+		1D6D468E1C995BA5009F5E43 /* SoundfullNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D468D1C995BA5009F5E43 /* SoundfullNotificationManager.swift */; };
 		1D793D8F1C930F2E001D9E50 /* AudioFile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D793D8D1C930F2E001D9E50 /* AudioFile+CoreDataProperties.swift */; };
 		1D793D901C930F2E001D9E50 /* AudioFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D793D8E1C930F2E001D9E50 /* AudioFile.swift */; };
 		1D793D931C930F5E001D9E50 /* ModelFacad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D793D921C930F5E001D9E50 /* ModelFacad.swift */; };
@@ -30,6 +31,7 @@
 		1D793DA01C932555001D9E50 /* MusicDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D793D9F1C932555001D9E50 /* MusicDetailsViewController.swift */; };
 		1D793DA31C932AAB001D9E50 /* MusicDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D793DA11C932AAB001D9E50 /* MusicDownloader.swift */; };
 		1D793DA41C932AAB001D9E50 /* MusicDownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D793DA21C932AAB001D9E50 /* MusicDownloaderClient.swift */; };
+		1D793DA61C932AF1001D9E50 /* MusicPlayerBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D793DA51C932AF1001D9E50 /* MusicPlayerBrain.swift */; };
 		1DA9825E1C8B16B400D3F769 /* SoundfullColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9825D1C8B16B400D3F769 /* SoundfullColors.swift */; };
 		1DB3020A1C8F334100C3C900 /* String+Soundfull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB302091C8F334100C3C900 /* String+Soundfull.swift */; };
 		1DB3020C1C8F36D700C3C900 /* UIViewController+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3020B1C8F36D700C3C900 /* UIViewController+Swift.swift */; };
@@ -79,6 +81,7 @@
 		1D20AAA71C80849500DF96BD /* SoundfullNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundfullNavigationViewController.swift; sourceTree = "<group>"; };
 		1D20AAAB1C8087B000DF96BD /* SoundfullNavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundfullNavigationDelegate.swift; sourceTree = "<group>"; };
 		1D20AAAD1C8089C200DF96BD /* SoundfullMainControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoundfullMainControl.xib; sourceTree = "<group>"; };
+		1D6D468D1C995BA5009F5E43 /* SoundfullNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundfullNotificationManager.swift; sourceTree = "<group>"; };
 		1D793D8D1C930F2E001D9E50 /* AudioFile+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AudioFile+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1D793D8E1C930F2E001D9E50 /* AudioFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioFile.swift; sourceTree = "<group>"; };
 		1D793D921C930F5E001D9E50 /* ModelFacad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelFacad.swift; sourceTree = "<group>"; };
@@ -89,6 +92,7 @@
 		1D793D9F1C932555001D9E50 /* MusicDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDetailsViewController.swift; sourceTree = "<group>"; };
 		1D793DA11C932AAB001D9E50 /* MusicDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDownloader.swift; sourceTree = "<group>"; };
 		1D793DA21C932AAB001D9E50 /* MusicDownloaderClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDownloaderClient.swift; sourceTree = "<group>"; };
+		1D793DA51C932AF1001D9E50 /* MusicPlayerBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerBrain.swift; sourceTree = "<group>"; };
 		1DA9825D1C8B16B400D3F769 /* SoundfullColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundfullColors.swift; sourceTree = "<group>"; };
 		1DB302091C8F334100C3C900 /* String+Soundfull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Soundfull.swift"; sourceTree = "<group>"; };
 		1DB3020B1C8F36D700C3C900 /* UIViewController+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Swift.swift"; sourceTree = "<group>"; };
@@ -162,11 +166,11 @@
 		1D20AA6B1C807FE600DF96BD /* Soundfull */ = {
 			isa = PBXGroup;
 			children = (
-				1DB3020D1C8F38C400C3C900 /* Soundull Core */,
-				1DA9825C1C8B169D00D3F769 /* Utils */,
 				1D20AAAA1C80879300DF96BD /* Delegates */,
 				1D20AA9D1C80810600DF96BD /* Model */,
 				1D20AAA11C8081D800DF96BD /* Controls */,
+				1DB3020D1C8F38C400C3C900 /* Soundull Core */,
+				1DA9825C1C8B169D00D3F769 /* Utils */,
 				1D20AA9F1C80811C00DF96BD /* User Story */,
 				1D20AAA01C80813700DF96BD /* Supporting Files */,
 			);
@@ -289,6 +293,7 @@
 				1DB302091C8F334100C3C900 /* String+Soundfull.swift */,
 				1DB3020B1C8F36D700C3C900 /* UIViewController+Swift.swift */,
 				1D793D941C931042001D9E50 /* SoundfullFileManager.swift */,
+				1D6D468D1C995BA5009F5E43 /* SoundfullNotificationManager.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 		1DB3020D1C8F38C400C3C900 /* Soundull Core */ = {
 			isa = PBXGroup;
 			children = (
+				1D793DA51C932AF1001D9E50 /* MusicPlayerBrain.swift */,
 				1DB302101C8F38F400C3C900 /* Sound Things */,
 				1DB302131C8F38F400C3C900 /* Network */,
 			);
@@ -516,9 +522,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB3020C1C8F36D700C3C900 /* UIViewController+Swift.swift in Sources */,
+				1D793DA61C932AF1001D9E50 /* MusicPlayerBrain.swift in Sources */,
 				1DD82B161C8B23120062A24B /* SoundfullTextField.swift in Sources */,
 				1DB302141C8F38F400C3C900 /* SoundConverter.swift in Sources */,
 				1DA9825E1C8B16B400D3F769 /* SoundfullColors.swift in Sources */,
+				1D6D468E1C995BA5009F5E43 /* SoundfullNotificationManager.swift in Sources */,
 				1D793D901C930F2E001D9E50 /* AudioFile.swift in Sources */,
 				1D20AAA81C80849500DF96BD /* SoundfullNavigationViewController.swift in Sources */,
 				1D793D981C9318C0001D9E50 /* MyMusicTableViewCell.swift in Sources */,
