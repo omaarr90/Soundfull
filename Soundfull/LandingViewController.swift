@@ -194,6 +194,7 @@ extension LandingViewController: MusicClientDelegate {
         }
         catch _ {
             self.showErrorAlertWithMessage(NSLocalizedString("Could not save music", comment: ""))
+            // Send Notification Error
         }
     }
         
