@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D02F9511C9B2ACE0068FF1A /* SlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02F9501C9B2ACE0068FF1A /* SlideTransition.swift */; };
 		1D20AA6D1C807FE600DF96BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20AA6C1C807FE600DF96BD /* AppDelegate.swift */; };
 		1D20AA6F1C807FE600DF96BD /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20AA6E1C807FE600DF96BD /* LandingViewController.swift */; };
 		1D20AA721C807FE600DF96BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D20AA701C807FE600DF96BD /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D02F9501C9B2ACE0068FF1A /* SlideTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideTransition.swift; sourceTree = "<group>"; };
 		1D20AA691C807FE600DF96BD /* Soundfull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundfull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D20AA6C1C807FE600DF96BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D20AA6E1C807FE600DF96BD /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +143,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1D02F94F1C9B2AB90068FF1A /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				1D02F9501C9B2ACE0068FF1A /* SlideTransition.swift */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
 		1D20AA601C807FE600DF96BD = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +178,7 @@
 			children = (
 				1D20AAAA1C80879300DF96BD /* Delegates */,
 				1D20AA9D1C80810600DF96BD /* Model */,
+				1D02F94F1C9B2AB90068FF1A /* Transitions */,
 				1D20AAA11C8081D800DF96BD /* Controls */,
 				1DB3020D1C8F38C400C3C900 /* Soundull Core */,
 				1DA9825C1C8B169D00D3F769 /* Utils */,
@@ -541,6 +552,7 @@
 				1D793D8F1C930F2E001D9E50 /* AudioFile+CoreDataProperties.swift in Sources */,
 				1D20AAAC1C8087B000DF96BD /* SoundfullNavigationDelegate.swift in Sources */,
 				1D793DA31C932AAB001D9E50 /* MusicDownloader.swift in Sources */,
+				1D02F9511C9B2ACE0068FF1A /* SlideTransition.swift in Sources */,
 				1D793DA01C932555001D9E50 /* MusicDetailsViewController.swift in Sources */,
 				1DB302191C8F392500C3C900 /* NSCharacterSet+URLEscape.swift in Sources */,
 				1D20AA6D1C807FE600DF96BD /* AppDelegate.swift in Sources */,

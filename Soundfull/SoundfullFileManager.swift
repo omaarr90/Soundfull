@@ -34,8 +34,7 @@ class SoundfullFileManager: NSObject {
     class func deleteatPath(path: NSURL) {
         do {
             try NSFileManager.defaultManager().removeItemAtURL(path)
-        } catch let error as NSError {
-            print(error.localizedDescription)
+        } catch {
         }
     }
 }

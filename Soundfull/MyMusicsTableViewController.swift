@@ -65,8 +65,7 @@ class MyMusicsTableViewController: UITableViewController {
         fetchedResultsController.fetchRequest.predicate = predicate
         do {
             try fetchedResultsController.performFetch()
-        } catch let err as NSError{
-            print("An error occurred: \(err.localizedDescription)")
+        } catch{
         }
     }
 

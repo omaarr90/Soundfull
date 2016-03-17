@@ -188,11 +188,16 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Br-xs-EwT">
-                                <rect key="frame" x="385" y="530.5" width="40" height="37"/>
+                                <rect key="frame" x="375" y="530.5" width="50" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="SW3-ED-m8L"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="SoundApp_ repeat_icon_not_selected"/>
+                                <state key="normal" image="SoundApp_ repeat_icon_not_selected"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="SW3-ED-m8L"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <action selector="repeateButtonClicked:" destination="D4t-Ko-nZW" eventType="touchUpInside" id="Rde-Y0-d0U"/>
                                 </connections>

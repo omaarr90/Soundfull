@@ -107,7 +107,6 @@ class MusicDetailsViewController: UIViewController {
     
     
     func shareButtonClicked(button: UIBarButtonItem) {
-        print("share button clicked")
         documentInteractionController = UIDocumentInteractionController(URL: SoundfullFileManager.getMusicFilePathForName("\(self.music.title!)\(self.music.category!).m4a"))
         documentInteractionController.UTI = AVFileTypeAppleM4A
         documentInteractionController.delegate = self

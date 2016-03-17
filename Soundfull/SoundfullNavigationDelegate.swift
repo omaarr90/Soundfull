@@ -9,9 +9,14 @@
 import UIKit
 
 class SoundfullNavigationDelegate: NSObject, UINavigationControllerDelegate {
+    
+    private var customTransition: SlideTransition!
 
     func navigationController(navigationController: UINavigationController, animationControllerForOperation operation: UINavigationControllerOperation, fromViewController fromVC: UIViewController, toViewController toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return nil
+        let transition = self.navCustomTransition()
+        transition.operation = operation
+        
+        return transition
     }
     
     func navigationController(navigationController: UINavigationController, didShowViewController viewController: UIViewController, animated: Bool) {
@@ -38,6 +43,15 @@ class SoundfullNavigationDelegate: NSObject, UINavigationControllerDelegate {
     
     func navigationControllerSupportedInterfaceOrientations(navigationController: UINavigationController) -> UIInterfaceOrientationMask {
         return .AllButUpsideDown
+    }
+    
+    private func navCustomTransition() -> SlideTransition {
+        if let transition = self.customTransition {
+            return transition
+        } else {
+            self.customTransition = SlideTransition()
+            return self.customTransition
+        }
     }
 }
 

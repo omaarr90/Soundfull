@@ -26,9 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Allow background playing of Music
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
-            print("AVAudioSession Category Playback OK")
-        } catch let error as NSError {
-            print(error.localizedDescription)
+        } catch _ {
         }
         return true
     }

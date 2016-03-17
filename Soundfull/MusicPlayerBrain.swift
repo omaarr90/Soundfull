@@ -73,12 +73,10 @@ class MusicPlayerBrain: NSObject {
         
         do {
             try AVAudioSession.sharedInstance().setActive(true)
-            print("AVAudioSession is Active")
-        } catch let error as NSError {
-            print(error.localizedDescription)
+        } catch {
         }
 
-        let image = UIImage(named: "musicPlayerLockScreen")
+        let image = UIImage(named: "lockScreenImage")
         let albumArt = MPMediaItemArtwork(image: image!)
         
         let songInfo: Dictionary = [

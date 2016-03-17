@@ -126,12 +126,11 @@ extension LandingViewController {
     }
     
     func galleryButtonClicked(button: UIButton) {
-        print("Coming soon")
+        self.showErrorAlertWithMessage(NSLocalizedString("Coming Soon, you will be able to convert any viedo from your library to audio.", comment: ""))
     }
     
     func mysoundButtonClicked(button: UIButton) {
         self.performSegueWithIdentifier("showMusics", sender: self)
-        print("show My sounds")
     }
 }
 
