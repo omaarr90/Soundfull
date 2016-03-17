@@ -41,6 +41,15 @@ class MusicPlayerBrain: NSObject {
         }
     }
     
+    var repeateCount: Int {
+        get {
+            return self.myPlayer.numberOfLoops
+        }
+        set {
+            self.myPlayer.numberOfLoops = newValue
+        }
+    }
+    
     var currentTime: NSTimeInterval {
         get {
             if self.myPlayer != nil {
@@ -101,7 +110,7 @@ extension MusicPlayerBrain: AVAudioPlayerDelegate {
 extension MusicPlayerBrain {
     func playAudio(music: AudioFile) {
         
-        let fileName = music.discURL
+        let fileName = "\(music.title!)\(music.category!).m4a"
         
         if (self.myPlayer != nil && self.fileName == fileName) {
             // Do nothing

@@ -161,7 +161,7 @@
                                 <rect key="frame" x="175" y="276" width="250" height="250"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDI-kn-3TE">
-                                        <rect key="frame" x="75" y="75.5" width="100" height="100"/>
+                                        <rect key="frame" x="75" y="75" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="b2Z-v5-GfA"/>
                                             <constraint firstAttribute="width" constant="100" id="fdV-ai-0eL"/>
@@ -180,28 +180,53 @@
                                     <constraint firstItem="sDI-kn-3TE" firstAttribute="centerX" secondItem="7Lr-gY-4Rm" secondAttribute="centerX" id="QID-k0-6m6"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kq-LF-WT9">
+                                <rect key="frame" x="175" y="534" width="35" height="30"/>
+                                <state key="normal" image="SoundApp_Heart_m_icon"/>
+                                <connections>
+                                    <action selector="favouriteButtonClicked:" destination="D4t-Ko-nZW" eventType="touchUpInside" id="67B-3D-DmA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Br-xs-EwT">
+                                <rect key="frame" x="385" y="530.5" width="40" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="SW3-ED-m8L"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="SoundApp_ repeat_icon_not_selected"/>
+                                <connections>
+                                    <action selector="repeateButtonClicked:" destination="D4t-Ko-nZW" eventType="touchUpInside" id="Rde-Y0-d0U"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="guj-fr-kcQ" firstAttribute="trailing" secondItem="esG-LW-tmd" secondAttribute="trailing" id="2pt-1Z-HuO"/>
                             <constraint firstItem="esG-LW-tmd" firstAttribute="top" secondItem="Qg9-3X-mys" secondAttribute="bottom" constant="20" id="43q-A1-Ycx"/>
+                            <constraint firstItem="9Br-xs-EwT" firstAttribute="baseline" secondItem="1kq-LF-WT9" secondAttribute="baseline" id="D1v-x0-nAs"/>
+                            <constraint firstItem="1kq-LF-WT9" firstAttribute="leading" secondItem="7Lr-gY-4Rm" secondAttribute="leading" id="Faq-W0-BkA"/>
+                            <constraint firstItem="9Br-xs-EwT" firstAttribute="trailing" secondItem="7Lr-gY-4Rm" secondAttribute="trailing" id="Ofq-pi-pvM"/>
                             <constraint firstItem="7Lr-gY-4Rm" firstAttribute="centerY" secondItem="U6a-vK-dFh" secondAttribute="centerY" id="Z3z-lF-BBx"/>
                             <constraint firstItem="guj-fr-kcQ" firstAttribute="top" secondItem="esG-LW-tmd" secondAttribute="bottom" constant="20" id="dDU-u0-bxM"/>
+                            <constraint firstItem="9Br-xs-EwT" firstAttribute="centerY" secondItem="1kq-LF-WT9" secondAttribute="centerY" id="dxk-Ra-BKG"/>
                             <constraint firstItem="7Lr-gY-4Rm" firstAttribute="centerX" secondItem="U6a-vK-dFh" secondAttribute="centerX" id="e5K-GM-lkE"/>
                             <constraint firstItem="7Lr-gY-4Rm" firstAttribute="top" secondItem="guj-fr-kcQ" secondAttribute="bottom" constant="100" id="f6r-ZS-L2W"/>
                             <constraint firstAttribute="trailingMargin" secondItem="esG-LW-tmd" secondAttribute="trailing" id="fiS-wV-3cm"/>
                             <constraint firstItem="guj-fr-kcQ" firstAttribute="leading" secondItem="esG-LW-tmd" secondAttribute="leading" id="mwg-GY-hiS"/>
                             <constraint firstItem="esG-LW-tmd" firstAttribute="leading" secondItem="U6a-vK-dFh" secondAttribute="leadingMargin" id="u7d-6X-9Cq"/>
+                            <constraint firstItem="1kq-LF-WT9" firstAttribute="top" secondItem="7Lr-gY-4Rm" secondAttribute="bottom" constant="8" id="wMO-XR-dSz"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="Z3z-lF-BBx"/>
+                                <exclude reference="D1v-x0-nAs"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="favouriteButton" destination="1kq-LF-WT9" id="zRm-Sc-Nth"/>
                         <outlet property="musicprogressContainerView" destination="7Lr-gY-4Rm" id="yMY-49-88Q"/>
                         <outlet property="playPauseButton" destination="sDI-kn-3TE" id="JPh-Yl-URR"/>
+                        <outlet property="repeateButton" destination="9Br-xs-EwT" id="XcL-Ry-6gS"/>
                         <outlet property="subtitleLabel" destination="guj-fr-kcQ" id="N9G-RB-AkN"/>
                         <outlet property="titleLabel" destination="esG-LW-tmd" id="LdH-9k-rJW"/>
                     </connections>
@@ -231,5 +256,7 @@
     </scenes>
     <resources>
         <image name="SoundApp_ pause_icon" width="150" height="191"/>
+        <image name="SoundApp_ repeat_icon_not_selected" width="50" height="37"/>
+        <image name="SoundApp_Heart_m_icon" width="35" height="30"/>
     </resources>
 </document>

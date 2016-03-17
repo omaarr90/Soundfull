@@ -8,12 +8,20 @@
 
 import UIKit
 import CircleSlider
+import AVFoundation
+import MagicalRecord
 
 class MusicDetailsViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subtitleLabel: UILabel!
     @IBOutlet weak var musicprogressContainerView: UIView!
     @IBOutlet weak var playPauseButton: UIButton!
+    
+    @IBOutlet weak var favouriteButton: UIButton!
+    
+    @IBOutlet weak var repeateButton: UIButton!
+    
+    var documentInteractionController: UIDocumentInteractionController!
     
     var music: AudioFile!
     var cirlceControlView: CircleSlider!
@@ -32,7 +40,12 @@ class MusicDetailsViewController: UIViewController {
         
         self.myPlayer = MusicPlayerBrain.sharedPlayerBrain
         self.myPlayer.delegate = self
-
+        
+        let shareButton = UIBarButtonItem(image: UIImage(named: "SoundApp_sahre_icon"), style: .Plain, target: self, action: Selector("shareButtonClicked:"))
+        
+        self.navigationItem.rightBarButtonItem = shareButton
+        
+        
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -74,9 +87,40 @@ class MusicDetailsViewController: UIViewController {
         self.changePlayPauseIcon()
     }
     
+    @IBAction func favouriteButtonClicked(sender: UIButton) {
+        if self.music.isFavourite == true {
+            self.music.isFavourite = false
+        } else {
+            self.music.isFavourite = true
+        }
+        
+        NSManagedObjectContext.MR_defaultContext().MR_saveToPersistentStoreAndWait()
+        
+        self.changeFavouriteIcon()
+    }
+    
+    @IBAction func repeateButtonClicked(sender: UIButton) {
+        self.myPlayer.repeateCount += 1
+        self.myPlayer.repeateCount *= -1
+        self.changeRepeatIcon()
+    }
+    
+    
+    func shareButtonClicked(button: UIBarButtonItem) {
+        print("share button clicked")
+        documentInteractionController = UIDocumentInteractionController(URL: SoundfullFileManager.getMusicFilePathForName("\(self.music.title!)\(self.music.category!).m4a"))
+        documentInteractionController.UTI = AVFileTypeAppleM4A
+        documentInteractionController.delegate = self
+        
+        documentInteractionController.presentOpenInMenuFromBarButtonItem(button, animated: true)
+
+    }
+    
     
     private func updateUI() {
         self.changePlayPauseIcon()
+        self.changeRepeatIcon()
+        self.changeFavouriteIcon()
     }
     
     private func updateSlider() {
@@ -96,6 +140,22 @@ class MusicDetailsViewController: UIViewController {
             self.playPauseButton.setImage(UIImage(named: "SoundApp_Play_icon"), forState: .Normal)
         }
         
+    }
+    
+    private func changeFavouriteIcon() {
+        if self.music.isFavourite == true {
+            self.favouriteButton.setImage(UIImage(named: "SoundApp_Heart_F_icon"), forState: .Normal)
+        } else {
+            self.repeateButton.setImage(UIImage(named: "SoundApp_Heart_M_icon"), forState: .Normal)
+        }
+    }
+    
+    private func changeRepeatIcon() {
+        if self.myPlayer.repeateCount >= 0 {
+            self.repeateButton.setImage(UIImage(named: "SoundApp_ repeat_icon_not_selected"), forState: .Normal)
+        } else {
+            self.repeateButton.setImage(UIImage(named: "SoundApp_ repeat_icon_selected"), forState: .Normal)
+        }
     }
 
     private func pauseMusic() {
@@ -127,5 +187,11 @@ class MusicDetailsViewController: UIViewController {
 extension MusicDetailsViewController: MusicPlayerBrainDelegate {
     func musicPlayerBrainDidFinishPlaying(musicPlayerBrain: MusicPlayerBrain, successfully: Bool) {
         self.changePlayPauseIcon()
+    }
+}
+
+extension MusicDetailsViewController: UIDocumentInteractionControllerDelegate {
+    func documentInteractionControllerViewControllerForPreview(controller: UIDocumentInteractionController) -> UIViewController {
+        return self
     }
 }

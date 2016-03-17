@@ -27,9 +27,13 @@ class SoundfullFileManager: NSObject {
         return data!
     }
     
-    class func deleteatPath(path: String) {
+    class func getMusicFilePathForName(fileName: String) -> NSURL {
+        return NSURL(fileURLWithPath: NSFileManager.musicPath.stringByAppendingString(fileName), isDirectory: false)
+    }
+    
+    class func deleteatPath(path: NSURL) {
         do {
-            try NSFileManager.defaultManager().removeItemAtPath(path)
+            try NSFileManager.defaultManager().removeItemAtURL(path)
         } catch let error as NSError {
             print(error.localizedDescription)
         }

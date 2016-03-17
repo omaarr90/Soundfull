@@ -2,7 +2,7 @@
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15E61b" minimumToolsVersion="Automatic">
     <entity name="AudioFile" representedClassName=".AudioFile" syncable="YES">
         <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="discURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFavourite" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
