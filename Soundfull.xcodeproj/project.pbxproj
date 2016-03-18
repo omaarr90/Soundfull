@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1D02F9511C9B2ACE0068FF1A /* SlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02F9501C9B2ACE0068FF1A /* SlideTransition.swift */; };
+		1D02F9541C9B73830068FF1A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D02F9531C9B73830068FF1A /* Settings.bundle */; };
+		1D02F9581C9B79960068FF1A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D02F95A1C9B79960068FF1A /* Localizable.strings */; };
 		1D20AA6D1C807FE600DF96BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20AA6C1C807FE600DF96BD /* AppDelegate.swift */; };
 		1D20AA6F1C807FE600DF96BD /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20AA6E1C807FE600DF96BD /* LandingViewController.swift */; };
 		1D20AA721C807FE600DF96BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D20AA701C807FE600DF96BD /* Main.storyboard */; };
@@ -64,6 +66,9 @@
 
 /* Begin PBXFileReference section */
 		1D02F9501C9B2ACE0068FF1A /* SlideTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideTransition.swift; sourceTree = "<group>"; };
+		1D02F9531C9B73830068FF1A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		1D02F9591C9B79960068FF1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1D02F95B1C9B79990068FF1A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1D20AA691C807FE600DF96BD /* Soundfull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundfull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D20AA6C1C807FE600DF96BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D20AA6E1C807FE600DF96BD /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +156,14 @@
 			name = Transitions;
 			sourceTree = "<group>";
 		};
+		1D02F9521C9B736B0068FF1A /* Acknowledgments */ = {
+			isa = PBXGroup;
+			children = (
+				1D02F9531C9B73830068FF1A /* Settings.bundle */,
+			);
+			name = Acknowledgments;
+			sourceTree = "<group>";
+		};
 		1D20AA601C807FE600DF96BD = {
 			isa = PBXGroup;
 			children = (
@@ -230,10 +243,12 @@
 		1D20AAA01C80813700DF96BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1D02F9521C9B736B0068FF1A /* Acknowledgments */,
 				1D20AA7B1C807FE600DF96BD /* Info.plist */,
 				1D20AA781C807FE600DF96BD /* LaunchScreen.storyboard */,
 				1D20AA761C807FE600DF96BD /* Assets.xcassets */,
 				1D20AAA41C80841E00DF96BD /* Images.xcassets */,
+				1D02F95A1C9B79960068FF1A /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -437,6 +452,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 1D20AA601C807FE600DF96BD;
 			productRefGroup = 1D20AA6A1C807FE600DF96BD /* Products */;
@@ -460,7 +476,9 @@
 				1D20AAA51C80841E00DF96BD /* Images.xcassets in Resources */,
 				1D793D9E1C9321FA001D9E50 /* MyMusicTableViewCell.xib in Resources */,
 				1D20AA771C807FE600DF96BD /* Assets.xcassets in Resources */,
+				1D02F9581C9B79960068FF1A /* Localizable.strings in Resources */,
 				1D20AA721C807FE600DF96BD /* Main.storyboard in Resources */,
+				1D02F9541C9B73830068FF1A /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +613,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1D02F95A1C9B79960068FF1A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D02F9591C9B79960068FF1A /* en */,
+				1D02F95B1C9B79990068FF1A /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		1D20AA701C807FE600DF96BD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

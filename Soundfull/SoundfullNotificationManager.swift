@@ -14,7 +14,7 @@ class SoundfullNotificationManager: NSObject {
     func scheduleNotification() {
         let localNotification = UILocalNotification()
         localNotification.fireDate = NSDate()
-        localNotification.alertBody = NSLocalizedString("Your music has finished", comment: "")
+        localNotification.alertBody = NSLocalizedString("Your file has finished downloading", comment: "")
         localNotification.applicationIconBadgeNumber += 1
         
         UIApplication.sharedApplication().scheduleLocalNotification(localNotification)

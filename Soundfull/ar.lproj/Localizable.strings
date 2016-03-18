@@ -1,0 +1,65 @@
+/* Created with Localizable Strings Merge, the swiss-army knife for iOS and OS X localization. */
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete this audio?" = "هل أنت متأكد من رغبتك في حذف هذا الملف؟";
+
+/* No comment provided by engineer. */
+"Cancel" = "الغاء";
+
+/* No comment provided by engineer. */
+"Category" = "التصنيف";
+
+/* No comment provided by engineer. */
+"Coming Soon, you will be able to convert any viedo from your library to audio." = "قريباً، سوف تتمكن من تحويل المقاطع المخزنة في هاتفك الى صوت";
+
+/* No comment provided by engineer. */
+"Could not save audio" = "لم نتمكن من حفظ الملف";
+
+/* No comment provided by engineer. */
+"Delete" = "حذف";
+
+/* No comment provided by engineer. */
+"Download" = "تحميل"; /* NEW */
+
+/* No comment provided by engineer. */
+"Download Sound" = "تحميل مقطع صوتي";
+
+/* No comment provided by engineer. */
+"Downloading..." = "جاري التحميل...";
+
+/* No comment provided by engineer. */
+"Finalizing..." = "اللمسات الأخيرة...";
+
+/* No comment provided by engineer. */
+"My Sounds" = "أصواتي";
+
+/* No comment provided by engineer. */
+"O.K" = "تم";
+
+/* No comment provided by engineer. */
+"Paste URL" = "الصق الرابط";
+
+/* No comment provided by engineer. */
+"Please provide a category" = "من فضلك ضع تصنيف";
+
+/* No comment provided by engineer. */
+"Please provide a title" = "من فضلك ضع عنوان";
+
+/* No comment provided by engineer. */
+"Please provide a URL" = "من فضلك ضع رابط";
+
+/* No comment provided by engineer. */
+"Please provide a valid URL" = "من فضلك ضع رابط صحيح";
+
+/* No comment provided by engineer. */
+"Preparing..." = "جاري التحضير...";
+
+/* First Page Title */
+"Soundfull" = "Soundfull";
+
+/* No comment provided by engineer. */
+"Title" = "العنوان";
+
+/* No comment provided by engineer. */
+"Your file has finished downloading" = "تم الانتهاء من التحميل";
+

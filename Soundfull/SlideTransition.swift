@@ -39,10 +39,16 @@ class SlideTransition: NSObject, UIViewControllerAnimatedTransitioning {
     
     private func initailToViewFrameInContainer(container: UIView) -> CGRect {
         var rect = container.frame
-        if self.operation == .Push {
+        let direction = UIApplication.sharedApplication().userInterfaceLayoutDirection
+
+        if self.operation == .Push && direction == .LeftToRight{
             rect.origin.x = container.frame.origin.x + container.frame.size.width
-        } else {
+        } else if  self.operation == .Pop && direction == .LeftToRight {
             rect.origin.x = container.frame.origin.x - container.frame.size.width
+        } else if self.operation == .Push && direction == .RightToLeft {
+            rect.origin.x = container.frame.origin.x - container.frame.size.width
+        } else {
+            rect.origin.x = container.frame.origin.x + container.frame.size.width
         }
         
         return rect
@@ -58,11 +64,16 @@ class SlideTransition: NSObject, UIViewControllerAnimatedTransitioning {
     
     private func finalFromViewFrameInContainer(container: UIView) -> CGRect {
         var rect = container.frame
+        let direction = UIApplication.sharedApplication().userInterfaceLayoutDirection
         
-        if self.operation == .Push {
+        if self.operation == .Push && direction == .LeftToRight {
             rect.origin.x = container.frame.origin.x - container.frame.size.width
-        } else {
+        } else if  self.operation == .Pop && direction == .LeftToRight {
             rect.origin.x = container.frame.origin.x + container.frame.size.width
+        } else if self.operation == .Push && direction == .RightToLeft {
+            rect.origin.x = container.frame.origin.x + container.frame.size.width
+        } else {
+            rect.origin.x = container.frame.origin.x - container.frame.size.width
         }
         
         return rect

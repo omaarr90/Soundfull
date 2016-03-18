@@ -158,7 +158,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Lr-gY-4Rm">
-                                <rect key="frame" x="175" y="276" width="250" height="250"/>
+                                <rect key="frame" x="175" y="256" width="250" height="250"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDI-kn-3TE">
                                         <rect key="frame" x="75" y="75" width="100" height="100"/>
@@ -181,14 +181,14 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kq-LF-WT9">
-                                <rect key="frame" x="175" y="534" width="35" height="30"/>
+                                <rect key="frame" x="175" y="514" width="35" height="30"/>
                                 <state key="normal" image="SoundApp_Heart_m_icon"/>
                                 <connections>
                                     <action selector="favouriteButtonClicked:" destination="D4t-Ko-nZW" eventType="touchUpInside" id="67B-3D-DmA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Br-xs-EwT">
-                                <rect key="frame" x="375" y="530.5" width="50" height="37"/>
+                                <rect key="frame" x="375" y="510.5" width="50" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="SW3-ED-m8L"/>
                                 </constraints>
@@ -214,7 +214,7 @@
                             <constraint firstItem="guj-fr-kcQ" firstAttribute="top" secondItem="esG-LW-tmd" secondAttribute="bottom" constant="20" id="dDU-u0-bxM"/>
                             <constraint firstItem="9Br-xs-EwT" firstAttribute="centerY" secondItem="1kq-LF-WT9" secondAttribute="centerY" id="dxk-Ra-BKG"/>
                             <constraint firstItem="7Lr-gY-4Rm" firstAttribute="centerX" secondItem="U6a-vK-dFh" secondAttribute="centerX" id="e5K-GM-lkE"/>
-                            <constraint firstItem="7Lr-gY-4Rm" firstAttribute="top" secondItem="guj-fr-kcQ" secondAttribute="bottom" constant="100" id="f6r-ZS-L2W"/>
+                            <constraint firstItem="7Lr-gY-4Rm" firstAttribute="top" secondItem="guj-fr-kcQ" secondAttribute="bottom" constant="80" id="f6r-ZS-L2W"/>
                             <constraint firstAttribute="trailingMargin" secondItem="esG-LW-tmd" secondAttribute="trailing" id="fiS-wV-3cm"/>
                             <constraint firstItem="guj-fr-kcQ" firstAttribute="leading" secondItem="esG-LW-tmd" secondAttribute="leading" id="mwg-GY-hiS"/>
                             <constraint firstItem="esG-LW-tmd" firstAttribute="leading" secondItem="U6a-vK-dFh" secondAttribute="leadingMargin" id="u7d-6X-9Cq"/>

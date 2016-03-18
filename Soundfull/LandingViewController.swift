@@ -71,6 +71,7 @@ class LandingViewController: UIViewController {
         smc.linkButton.addTarget(self, action: Selector("linkButtonClicked:"), forControlEvents: .TouchUpInside)
         smc.galleryButton.addTarget(self, action: Selector("galleryButtonClicked:"), forControlEvents: .TouchUpInside)
         smc.mySoundButton.addTarget(self, action: Selector("mysoundButtonClicked:"), forControlEvents: .TouchUpInside)
+        smc.mySoundButton.setTitle(NSLocalizedString("My Sounds", comment: ""), forState: .Normal)
         
         self.view.addSubview(smc)
         self.view.sendSubviewToBack(smc)
@@ -192,7 +193,7 @@ extension LandingViewController: MusicClientDelegate {
  
         }
         catch _ {
-            self.showErrorAlertWithMessage(NSLocalizedString("Could not save music", comment: ""))
+            self.showErrorAlertWithMessage(NSLocalizedString("Could not save audio", comment: ""))
             // Send Notification Error
         }
     }

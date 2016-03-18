@@ -32,7 +32,7 @@ class DownloadMusicViewController: UIViewController {
         self.urlTextField.soundfullPlaceholder = NSLocalizedString("Paste URL", comment: "")
         self.titleTextField.soundfullPlaceholder = NSLocalizedString("Title", comment: "")
         self.categoryTextField.soundfullPlaceholder = NSLocalizedString("Category", comment: "")
-        self.downloadButton.setTitle("Download", forState: .Normal)
+        self.downloadButton.setTitle(NSLocalizedString("Download", comment: ""), forState: .Normal)
         
     }
     
