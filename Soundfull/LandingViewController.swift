@@ -24,6 +24,8 @@ class LandingViewController: UIViewController {
         
         self.downloaderClient = MusicDownloaderClient()
         self.downloaderClient.delegate = self
+        
+        self.initSoundfullLoadingView()
 
     }
     
@@ -46,14 +48,13 @@ class LandingViewController: UIViewController {
     }
     
     private func initSoundfullLoadingView() {
-        if let _ = self.loadingView {
-        } else {
-            self.loadingView = SoundfullLoadingView(frame: CGRectMake(0, 0, 300, 300))
-            self.loadingView.center = view.center
-            self.loadingView.loaderBackgroundColor = UIColor.clearColor()
-            self.loadingView.loaderColor = UIColor.soundfullOrangeColor()
-            self.loadingView.alpha = 0.0
-        }
+        self.loadingView = SoundfullLoadingView(frame: CGRectMake(0, 0, 300, 300))
+        self.loadingView.center = view.center
+        self.loadingView.loaderBackgroundColor = UIColor.clearColor()
+        self.loadingView.loaderColor = UIColor.soundfullOrangeColor()
+        self.loadingView.alpha = 0.0
+        self.view.addSubview(self.loadingView)
+        
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -90,19 +91,15 @@ class LandingViewController: UIViewController {
     }
     
     private func showMainControl() {
-        self.initSoundfullLoadingView()
+        self.soundfullMainControl.alpha = 0.0
         UIView.animateWithDuration(0.5, animations: { () -> Void in
             self.soundfullMainControl.alpha = 1.0
             self.loadingView.alpha = 0.0
             }) { (finished) -> Void in
-                self.loadingView.removeFromSuperview()
-                self.loadingView = nil
         }
     }
     
     private func showLoadingView() {
-        self.initSoundfullLoadingView()
-        self.view.addSubview(self.loadingView)
         UIView.animateWithDuration(0.5, animations: { () -> Void in
             self.soundfullMainControl.alpha = 0.0
             self.loadingView.alpha = 1.0
@@ -188,13 +185,11 @@ extension LandingViewController: MusicClientDelegate {
             let fh = try NSFileHandle(forReadingFromURL: location)
             let fileData = fh.availableData
             ModelFacad.saveAudioWithTitle(self.musicTitle, andCategory: self.musicCategory, withData: fileData)
-                // send notifications
             SoundfullNotificationManager.sharedManager.scheduleNotification()
  
         }
         catch _ {
             self.showErrorAlertWithMessage(NSLocalizedString("Could not save audio", comment: ""))
-            // Send Notification Error
         }
     }
         

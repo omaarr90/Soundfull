@@ -84,7 +84,7 @@
 		1D20AA8F1C807FE600DF96BD /* SoundfullUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundfullUITests.swift; sourceTree = "<group>"; };
 		1D20AA911C807FE600DF96BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D20AAA21C80822E00DF96BD /* SoundfullMainControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundfullMainControl.swift; sourceTree = "<group>"; };
-		1D20AAA41C80841E00DF96BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D20AAA41C80841E00DF96BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Soundfull/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		1D20AAA71C80849500DF96BD /* SoundfullNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundfullNavigationViewController.swift; sourceTree = "<group>"; };
 		1D20AAAB1C8087B000DF96BD /* SoundfullNavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundfullNavigationDelegate.swift; sourceTree = "<group>"; };
 		1D20AAAD1C8089C200DF96BD /* SoundfullMainControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoundfullMainControl.xib; sourceTree = "<group>"; };

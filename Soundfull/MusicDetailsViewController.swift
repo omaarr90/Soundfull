@@ -145,7 +145,7 @@ class MusicDetailsViewController: UIViewController {
         if self.music.isFavourite == true {
             self.favouriteButton.setImage(UIImage(named: "SoundApp_Heart_F_icon"), forState: .Normal)
         } else {
-            self.repeateButton.setImage(UIImage(named: "SoundApp_Heart_M_icon"), forState: .Normal)
+            self.favouriteButton.setImage(UIImage(named: "SoundApp_Heart_m_icon"), forState: .Normal)
         }
     }
     

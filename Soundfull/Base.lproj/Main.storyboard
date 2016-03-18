@@ -187,19 +187,11 @@
                                     <action selector="favouriteButtonClicked:" destination="D4t-Ko-nZW" eventType="touchUpInside" id="67B-3D-DmA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Br-xs-EwT">
-                                <rect key="frame" x="375" y="510.5" width="50" height="37"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="SW3-ED-m8L"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKG-Tg-kg8">
+                                <rect key="frame" x="375" y="510" width="50" height="37"/>
                                 <state key="normal" image="SoundApp_ repeat_icon_not_selected"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="SW3-ED-m8L"/>
-                                    </mask>
-                                </variation>
                                 <connections>
-                                    <action selector="repeateButtonClicked:" destination="D4t-Ko-nZW" eventType="touchUpInside" id="Rde-Y0-d0U"/>
+                                    <action selector="repeateButtonClicked:" destination="D4t-Ko-nZW" eventType="touchUpInside" id="uGP-41-jde"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -207,12 +199,11 @@
                         <constraints>
                             <constraint firstItem="guj-fr-kcQ" firstAttribute="trailing" secondItem="esG-LW-tmd" secondAttribute="trailing" id="2pt-1Z-HuO"/>
                             <constraint firstItem="esG-LW-tmd" firstAttribute="top" secondItem="Qg9-3X-mys" secondAttribute="bottom" constant="20" id="43q-A1-Ycx"/>
-                            <constraint firstItem="9Br-xs-EwT" firstAttribute="baseline" secondItem="1kq-LF-WT9" secondAttribute="baseline" id="D1v-x0-nAs"/>
                             <constraint firstItem="1kq-LF-WT9" firstAttribute="leading" secondItem="7Lr-gY-4Rm" secondAttribute="leading" id="Faq-W0-BkA"/>
-                            <constraint firstItem="9Br-xs-EwT" firstAttribute="trailing" secondItem="7Lr-gY-4Rm" secondAttribute="trailing" id="Ofq-pi-pvM"/>
+                            <constraint firstItem="PKG-Tg-kg8" firstAttribute="centerY" secondItem="1kq-LF-WT9" secondAttribute="centerY" id="IM7-3u-5yM"/>
+                            <constraint firstItem="PKG-Tg-kg8" firstAttribute="trailing" secondItem="7Lr-gY-4Rm" secondAttribute="trailing" id="XWk-07-AzY"/>
                             <constraint firstItem="7Lr-gY-4Rm" firstAttribute="centerY" secondItem="U6a-vK-dFh" secondAttribute="centerY" id="Z3z-lF-BBx"/>
                             <constraint firstItem="guj-fr-kcQ" firstAttribute="top" secondItem="esG-LW-tmd" secondAttribute="bottom" constant="20" id="dDU-u0-bxM"/>
-                            <constraint firstItem="9Br-xs-EwT" firstAttribute="centerY" secondItem="1kq-LF-WT9" secondAttribute="centerY" id="dxk-Ra-BKG"/>
                             <constraint firstItem="7Lr-gY-4Rm" firstAttribute="centerX" secondItem="U6a-vK-dFh" secondAttribute="centerX" id="e5K-GM-lkE"/>
                             <constraint firstItem="7Lr-gY-4Rm" firstAttribute="top" secondItem="guj-fr-kcQ" secondAttribute="bottom" constant="80" id="f6r-ZS-L2W"/>
                             <constraint firstAttribute="trailingMargin" secondItem="esG-LW-tmd" secondAttribute="trailing" id="fiS-wV-3cm"/>
@@ -223,7 +214,6 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="Z3z-lF-BBx"/>
-                                <exclude reference="D1v-x0-nAs"/>
                             </mask>
                         </variation>
                     </view>
@@ -231,7 +221,7 @@
                         <outlet property="favouriteButton" destination="1kq-LF-WT9" id="zRm-Sc-Nth"/>
                         <outlet property="musicprogressContainerView" destination="7Lr-gY-4Rm" id="yMY-49-88Q"/>
                         <outlet property="playPauseButton" destination="sDI-kn-3TE" id="JPh-Yl-URR"/>
-                        <outlet property="repeateButton" destination="9Br-xs-EwT" id="XcL-Ry-6gS"/>
+                        <outlet property="repeateButton" destination="PKG-Tg-kg8" id="WjL-7G-Lvy"/>
                         <outlet property="subtitleLabel" destination="guj-fr-kcQ" id="N9G-RB-AkN"/>
                         <outlet property="titleLabel" destination="esG-LW-tmd" id="LdH-9k-rJW"/>
                     </connections>
