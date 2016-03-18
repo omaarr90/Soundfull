@@ -15,28 +15,20 @@
                     <rect key="frame" x="0.0" y="0.0" width="300" height="320"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DX3-Dq-z8Z">
-                    <rect key="frame" x="126" y="258" width="50" height="50"/>
+                    <rect key="frame" x="130" y="261" width="40" height="40"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="50" id="A3i-VN-tRd"/>
-                        <constraint firstAttribute="height" constant="50" id="UD3-KE-Wns"/>
+                        <constraint firstAttribute="width" constant="40" id="A3i-VN-tRd"/>
+                        <constraint firstAttribute="height" constant="40" id="UD3-KE-Wns"/>
                     </constraints>
                     <state key="normal" image="SoundApp_studio_icon"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8Q-nm-kE9">
-                    <rect key="frame" x="226" y="210" width="40" height="40"/>
+                    <rect key="frame" x="226" y="215" width="40" height="30"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="CaE-el-WIQ"/>
-                        <constraint firstAttribute="width" constant="50" id="UTg-hz-2lF"/>
+                        <constraint firstAttribute="height" constant="30" id="CaE-el-WIQ"/>
                         <constraint firstAttribute="width" constant="40" id="j7u-7k-91x"/>
-                        <constraint firstAttribute="height" constant="50" id="wcd-nP-cvY"/>
                     </constraints>
                     <state key="normal" image="SoundApp_youtube_icon"/>
-                    <variation key="default">
-                        <mask key="constraints">
-                            <exclude reference="UTg-hz-2lF"/>
-                            <exclude reference="wcd-nP-cvY"/>
-                        </mask>
-                    </variation>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXD-ab-bbE">
                     <rect key="frame" x="35" y="210" width="40" height="40"/>
@@ -57,32 +49,25 @@
             <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="K90-HV-sFW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3Ia-tA-88z"/>
-                <constraint firstItem="DX3-Dq-z8Z" firstAttribute="top" secondItem="rXD-ab-bbE" secondAttribute="bottom" constant="8" id="C7n-1I-hGe"/>
+                <constraint firstItem="DX3-Dq-z8Z" firstAttribute="top" secondItem="rXD-ab-bbE" secondAttribute="bottom" constant="11" id="C7n-1I-hGe"/>
                 <constraint firstAttribute="bottom" secondItem="K90-HV-sFW" secondAttribute="bottom" id="CJz-G8-cPs"/>
-                <constraint firstAttribute="trailing" secondItem="K90-HV-sFW" secondAttribute="trailing" id="EaH-86-9fw"/>
-                <constraint firstAttribute="trailing" secondItem="o8Q-nm-kE9" secondAttribute="trailing" constant="34" id="FIt-MI-hrT"/>
-                <constraint firstItem="rXD-ab-bbE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="35" id="Oye-aW-q3W"/>
+                <constraint firstAttribute="right" secondItem="K90-HV-sFW" secondAttribute="right" id="EaH-86-9fw"/>
+                <constraint firstAttribute="right" secondItem="o8Q-nm-kE9" secondAttribute="right" constant="34" id="FIt-MI-hrT"/>
+                <constraint firstItem="rXD-ab-bbE" firstAttribute="left" secondItem="iN0-l3-epB" secondAttribute="left" constant="35" id="Oye-aW-q3W"/>
                 <constraint firstItem="rXD-ab-bbE" firstAttribute="bottom" secondItem="o8Q-nm-kE9" secondAttribute="bottom" id="TBr-se-skz"/>
-                <constraint firstItem="K90-HV-sFW" firstAttribute="leading" secondItem="rXD-ab-bbE" secondAttribute="leading" constant="50" id="a6l-np-bIA"/>
                 <constraint firstItem="8Kq-gj-Fns" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-20" id="bfz-WU-Qxh"/>
                 <constraint firstItem="8Kq-gj-Fns" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="cdg-zh-BkL"/>
-                <constraint firstItem="DX3-Dq-z8Z" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="1" id="d2V-za-WBj"/>
-                <constraint firstItem="DX3-Dq-z8Z" firstAttribute="top" secondItem="K90-HV-sFW" secondAttribute="bottom" constant="-66" id="hHv-tm-geh"/>
+                <constraint firstItem="DX3-Dq-z8Z" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="d2V-za-WBj"/>
                 <constraint firstItem="rXD-ab-bbE" firstAttribute="top" secondItem="o8Q-nm-kE9" secondAttribute="top" id="jVa-jm-EJz"/>
-                <constraint firstItem="K90-HV-sFW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lcM-GH-cw2"/>
-                <constraint firstItem="o8Q-nm-kE9" firstAttribute="trailing" secondItem="K90-HV-sFW" secondAttribute="trailing" constant="-34" id="lrv-mU-3oL"/>
-                <constraint firstItem="DX3-Dq-z8Z" firstAttribute="top" secondItem="o8Q-nm-kE9" secondAttribute="bottom" constant="14" id="oEL-vf-rmg"/>
-                <constraint firstAttribute="bottom" secondItem="DX3-Dq-z8Z" secondAttribute="bottom" constant="12" id="ocA-V6-RJ5"/>
-                <constraint firstItem="K90-HV-sFW" firstAttribute="leading" secondItem="rXD-ab-bbE" secondAttribute="leading" constant="8" id="znu-Og-AMz"/>
+                <constraint firstItem="o8Q-nm-kE9" firstAttribute="centerY" secondItem="rXD-ab-bbE" secondAttribute="centerY" id="ju0-AS-Idz"/>
+                <constraint firstItem="K90-HV-sFW" firstAttribute="left" secondItem="iN0-l3-epB" secondAttribute="left" id="lcM-GH-cw2"/>
+                <constraint firstAttribute="bottom" secondItem="DX3-Dq-z8Z" secondAttribute="bottom" constant="19" id="ocA-V6-RJ5"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <variation key="default">
                 <mask key="constraints">
-                    <exclude reference="a6l-np-bIA"/>
-                    <exclude reference="znu-Og-AMz"/>
-                    <exclude reference="hHv-tm-geh"/>
-                    <exclude reference="oEL-vf-rmg"/>
-                    <exclude reference="lrv-mU-3oL"/>
+                    <exclude reference="TBr-se-skz"/>
+                    <exclude reference="jVa-jm-EJz"/>
                 </mask>
             </variation>
             <connections>
