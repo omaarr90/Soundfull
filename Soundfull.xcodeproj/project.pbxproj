@@ -32,13 +32,13 @@
 		1D793D9A1C9319A0001D9E50 /* MyMusicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D793D991C9319A0001D9E50 /* MyMusicsTableViewController.swift */; };
 		1D793D9E1C9321FA001D9E50 /* MyMusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D793D9D1C9321FA001D9E50 /* MyMusicTableViewCell.xib */; };
 		1D793DA01C932555001D9E50 /* MusicDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D793D9F1C932555001D9E50 /* MusicDetailsViewController.swift */; };
-		1D793DA41C932AAB001D9E50 /* MusicDownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D793DA21C932AAB001D9E50 /* MusicDownloaderClient.swift */; };
 		1D793DA61C932AF1001D9E50 /* MusicPlayerBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D793DA51C932AF1001D9E50 /* MusicPlayerBrain.swift */; };
-		1D7ADFBA1D1E1270007E9755 /* MusicDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ADFB91D1E1270007E9755 /* MusicDownloader.swift */; };
+		1D7ADFC21D1E1496007E9755 /* SoundConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ADFC11D1E1496007E9755 /* SoundConverter.swift */; };
+		1D7ADFC41D1E14C2007E9755 /* MusicDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ADFC31D1E14C2007E9755 /* MusicDownloader.swift */; };
+		1D7ADFC61D1E14E8007E9755 /* MusicDownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ADFC51D1E14E8007E9755 /* MusicDownloaderClient.swift */; };
 		1DA9825E1C8B16B400D3F769 /* SoundfullColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9825D1C8B16B400D3F769 /* SoundfullColors.swift */; };
 		1DB3020A1C8F334100C3C900 /* String+Soundfull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB302091C8F334100C3C900 /* String+Soundfull.swift */; };
 		1DB3020C1C8F36D700C3C900 /* UIViewController+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3020B1C8F36D700C3C900 /* UIViewController+Swift.swift */; };
-		1DB302141C8F38F400C3C900 /* SoundConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3020E1C8F38F400C3C900 /* SoundConverter.swift */; };
 		1DB302191C8F392500C3C900 /* NSCharacterSet+URLEscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB302181C8F392500C3C900 /* NSCharacterSet+URLEscape.swift */; };
 		1DB3021B1C8F3EB500C3C900 /* SoundfullLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3021A1C8F3EB500C3C900 /* SoundfullLoadingView.swift */; };
 		1DD82B141C8B1F180062A24B /* DownloadMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD82B131C8B1F180062A24B /* DownloadMusicViewController.swift */; };
@@ -97,13 +97,13 @@
 		1D793D991C9319A0001D9E50 /* MyMusicsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMusicsTableViewController.swift; sourceTree = "<group>"; };
 		1D793D9D1C9321FA001D9E50 /* MyMusicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMusicTableViewCell.xib; sourceTree = "<group>"; };
 		1D793D9F1C932555001D9E50 /* MusicDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDetailsViewController.swift; sourceTree = "<group>"; };
-		1D793DA21C932AAB001D9E50 /* MusicDownloaderClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDownloaderClient.swift; sourceTree = "<group>"; };
 		1D793DA51C932AF1001D9E50 /* MusicPlayerBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerBrain.swift; sourceTree = "<group>"; };
-		1D7ADFB91D1E1270007E9755 /* MusicDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDownloader.swift; sourceTree = "<group>"; };
+		1D7ADFC11D1E1496007E9755 /* SoundConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundConverter.swift; path = Soundfull/SoundConverter.swift; sourceTree = SOURCE_ROOT; };
+		1D7ADFC31D1E14C2007E9755 /* MusicDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicDownloader.swift; path = Soundfull/MusicDownloader.swift; sourceTree = SOURCE_ROOT; };
+		1D7ADFC51D1E14E8007E9755 /* MusicDownloaderClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicDownloaderClient.swift; path = Soundfull/MusicDownloaderClient.swift; sourceTree = SOURCE_ROOT; };
 		1DA9825D1C8B16B400D3F769 /* SoundfullColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundfullColors.swift; sourceTree = "<group>"; };
 		1DB302091C8F334100C3C900 /* String+Soundfull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Soundfull.swift"; sourceTree = "<group>"; };
 		1DB3020B1C8F36D700C3C900 /* UIViewController+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Swift.swift"; sourceTree = "<group>"; };
-		1DB3020E1C8F38F400C3C900 /* SoundConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundConverter.swift; sourceTree = "<group>"; };
 		1DB302181C8F392500C3C900 /* NSCharacterSet+URLEscape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSCharacterSet+URLEscape.swift"; sourceTree = "<group>"; };
 		1DB3021A1C8F3EB500C3C900 /* SoundfullLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundfullLoadingView.swift; sourceTree = "<group>"; };
 		1DD82B131C8B1F180062A24B /* DownloadMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadMusicViewController.swift; sourceTree = "<group>"; };
@@ -337,7 +337,7 @@
 		1DB302101C8F38F400C3C900 /* Sound Things */ = {
 			isa = PBXGroup;
 			children = (
-				1DB3020E1C8F38F400C3C900 /* SoundConverter.swift */,
+				1D7ADFC11D1E1496007E9755 /* SoundConverter.swift */,
 			);
 			name = "Sound Things";
 			path = "../../Moving Pics/Moving Pics";
@@ -346,8 +346,8 @@
 		1DB302131C8F38F400C3C900 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				1D7ADFB91D1E1270007E9755 /* MusicDownloader.swift */,
-				1D793DA21C932AAB001D9E50 /* MusicDownloaderClient.swift */,
+				1D7ADFC31D1E14C2007E9755 /* MusicDownloader.swift */,
+				1D7ADFC51D1E14E8007E9755 /* MusicDownloaderClient.swift */,
 			);
 			name = Network;
 			path = "../../Moving Pics/Moving Pics";
@@ -554,28 +554,28 @@
 				1DB3020C1C8F36D700C3C900 /* UIViewController+Swift.swift in Sources */,
 				1D793DA61C932AF1001D9E50 /* MusicPlayerBrain.swift in Sources */,
 				1DD82B161C8B23120062A24B /* SoundfullTextField.swift in Sources */,
-				1DB302141C8F38F400C3C900 /* SoundConverter.swift in Sources */,
 				1DA9825E1C8B16B400D3F769 /* SoundfullColors.swift in Sources */,
 				1D6D468E1C995BA5009F5E43 /* SoundfullNotificationManager.swift in Sources */,
 				1D793D901C930F2E001D9E50 /* AudioFile.swift in Sources */,
 				1D20AAA81C80849500DF96BD /* SoundfullNavigationViewController.swift in Sources */,
 				1D793D981C9318C0001D9E50 /* MyMusicTableViewCell.swift in Sources */,
+				1D7ADFC21D1E1496007E9755 /* SoundConverter.swift in Sources */,
 				1D793D931C930F5E001D9E50 /* ModelFacad.swift in Sources */,
 				1D20AA751C807FE600DF96BD /* Soundfull.xcdatamodeld in Sources */,
 				1D793D9A1C9319A0001D9E50 /* MyMusicsTableViewController.swift in Sources */,
 				1DB3020A1C8F334100C3C900 /* String+Soundfull.swift in Sources */,
-				1D7ADFBA1D1E1270007E9755 /* MusicDownloader.swift in Sources */,
 				1DB3021B1C8F3EB500C3C900 /* SoundfullLoadingView.swift in Sources */,
 				1D20AA6F1C807FE600DF96BD /* LandingViewController.swift in Sources */,
 				1DD82B141C8B1F180062A24B /* DownloadMusicViewController.swift in Sources */,
 				1D793D8F1C930F2E001D9E50 /* AudioFile+CoreDataProperties.swift in Sources */,
 				1D20AAAC1C8087B000DF96BD /* SoundfullNavigationDelegate.swift in Sources */,
+				1D7ADFC41D1E14C2007E9755 /* MusicDownloader.swift in Sources */,
 				1D02F9511C9B2ACE0068FF1A /* SlideTransition.swift in Sources */,
 				1D793DA01C932555001D9E50 /* MusicDetailsViewController.swift in Sources */,
 				1DB302191C8F392500C3C900 /* NSCharacterSet+URLEscape.swift in Sources */,
 				1D20AA6D1C807FE600DF96BD /* AppDelegate.swift in Sources */,
 				1DD82B181C8B24390062A24B /* SoundfullButton.swift in Sources */,
-				1D793DA41C932AAB001D9E50 /* MusicDownloaderClient.swift in Sources */,
+				1D7ADFC61D1E14E8007E9755 /* MusicDownloaderClient.swift in Sources */,
 				1D793D951C931042001D9E50 /* SoundfullFileManager.swift in Sources */,
 				1D20AAA31C80822E00DF96BD /* SoundfullMainControl.swift in Sources */,
 			);
