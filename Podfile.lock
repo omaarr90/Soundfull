@@ -1,10 +1,10 @@
 PODS:
-  - CircleSlider (0.2.0)
+  - CircleSlider (0.3.0)
   - FillableLoaders (1.2.5)
   - MagicalRecord (2.3.2):
     - MagicalRecord/Core (= 2.3.2)
   - MagicalRecord/Core (2.3.2)
-  - XCDYouTubeKit (2.5.1)
+  - XCDYouTubeKit (2.5.3)
 
 DEPENDENCIES:
   - CircleSlider
@@ -17,9 +17,9 @@ EXTERNAL SOURCES:
     :path: FillableLoaders
 
 SPEC CHECKSUMS:
-  CircleSlider: 66e5bf0059f5feffc954e5666f5286f4a331ebe3
+  CircleSlider: d1787626e7b8f20b3448ba256aa8a38f072a2640
   FillableLoaders: 500796b97342df7fcfc53a06ca6a73f3f5b5955b
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
-  XCDYouTubeKit: ee78997dc92d1055f11459d95c492dae1dba909d
+  XCDYouTubeKit: 90690f9e3523735dc93b8024269d991b0cfffe78
 
 COCOAPODS: 0.39.0
