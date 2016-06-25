@@ -12,7 +12,6 @@ class SoundfullMainControl: UIView {
     @IBOutlet weak var mySoundButton: UIButton!
     @IBOutlet weak var galleryButton: UIButton!
     @IBOutlet weak var linkButton: UIButton!
-    @IBOutlet weak var youtubeButton: UIButton!
     
     override init(frame: CGRect) {
         super.init(frame: frame)

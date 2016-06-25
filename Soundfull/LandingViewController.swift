@@ -68,7 +68,6 @@ class LandingViewController: UIViewController {
         let smc = SoundfullMainControl.newSoundFullMainControl()
         smc.translatesAutoresizingMaskIntoConstraints = false
         
-        smc.youtubeButton.addTarget(self, action: Selector("youTubeButtonClicked:"), forControlEvents: .TouchUpInside)
         smc.linkButton.addTarget(self, action: Selector("linkButtonClicked:"), forControlEvents: .TouchUpInside)
         smc.galleryButton.addTarget(self, action: Selector("galleryButtonClicked:"), forControlEvents: .TouchUpInside)
         smc.mySoundButton.addTarget(self, action: Selector("mysoundButtonClicked:"), forControlEvents: .TouchUpInside)
@@ -115,9 +114,6 @@ class LandingViewController: UIViewController {
 
 //MARK: - IBActions
 extension LandingViewController {
-    func youTubeButtonClicked(button: UIButton) {
-        self.performSegueWithIdentifier("downloadMusicSegue", sender: self)
-    }
     
     func linkButtonClicked(button: UIButton) {
         self.performSegueWithIdentifier("downloadMusicSegue", sender: self)
