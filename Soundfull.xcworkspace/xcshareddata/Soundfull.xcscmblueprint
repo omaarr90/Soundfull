@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "468320F38474450871C0D01D3D93F8325D865559",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "468320F38474450871C0D01D3D93F8325D865559" : 0,
+    "16AC80D93911DF4705B2F655B888216D0A0672EA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9A88C816-18EC-4B1C-BD24-E04C2F6AF915",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "468320F38474450871C0D01D3D93F8325D865559" : "Soundfull\/",
+    "16AC80D93911DF4705B2F655B888216D0A0672EA" : "FillableLoaders\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Soundfull",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Soundfull.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:omaarr90\/FillableLoaders.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "16AC80D93911DF4705B2F655B888216D0A0672EA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:omaarr90\/Soundfull.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "468320F38474450871C0D01D3D93F8325D865559"
+    }
+  ]
+}

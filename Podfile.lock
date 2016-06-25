@@ -8,13 +8,13 @@ PODS:
 
 DEPENDENCIES:
   - CircleSlider
-  - FillableLoaders (from `/Users/omaralshammari/Development/ios/FillableLoaders`)
+  - FillableLoaders (from `FillableLoaders`)
   - MagicalRecord
   - XCDYouTubeKit (~> 2.5)
 
 EXTERNAL SOURCES:
   FillableLoaders:
-    :path: /Users/omaralshammari/Development/ios/FillableLoaders
+    :path: FillableLoaders
 
 SPEC CHECKSUMS:
   CircleSlider: 66e5bf0059f5feffc954e5666f5286f4a331ebe3
