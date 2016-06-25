@@ -1,16 +1,28 @@
 /* Created with Localizable Strings Merge, the swiss-army knife for iOS and OS X localization. */
 
 /* No comment provided by engineer. */
+"An Error has occured converting the file" = "An Error has occured converting the file"; /* NEW */
+
+/* No comment provided by engineer. */
 "Are you sure you want to delete this audio?" = "هل أنت متأكد من رغبتك في حذف هذا الملف؟";
 
 /* No comment provided by engineer. */
 "Cancel" = "الغاء";
 
 /* No comment provided by engineer. */
+"Cannot Convert" = "Cannot Convert"; /* NEW */
+
+/* No comment provided by engineer. */
 "Category" = "التصنيف";
 
 /* No comment provided by engineer. */
 "Coming Soon, you will be able to convert any viedo from your library to audio." = "قريباً، سوف تتمكن من تحويل المقاطع المخزنة في هاتفك الى صوت";
+
+/* No comment provided by engineer. */
+"Converting has been canceled" = "Converting has been canceled"; /* NEW */
+
+/* No comment provided by engineer. */
+"Could not download youtube file." = "Could not download youtube file."; /* NEW */
 
 /* No comment provided by engineer. */
 "Could not save audio" = "لم نتمكن من حفظ الملف";
@@ -25,16 +37,28 @@
 "Download Sound" = "تحميل مقطع صوتي";
 
 /* No comment provided by engineer. */
+"Downloaded" = "تم تنزيله"; /* NEW */
+
+/* No comment provided by engineer. */
 "Downloading..." = "جاري التحميل...";
 
 /* No comment provided by engineer. */
 "Finalizing..." = "اللمسات الأخيرة...";
 
 /* No comment provided by engineer. */
+"Invalid URL" = "الرابط غير صحيح"; /* NEW */
+
+/* No comment provided by engineer. */
 "My Sounds" = "أصواتي";
 
 /* No comment provided by engineer. */
+"non audio file found" = "لم يتم ايجاد الملف الصوتي"; /* NEW */
+
+/* No comment provided by engineer. */
 "O.K" = "تم";
+
+/* No comment provided by engineer. */
+"Operation Canceled" = "تم الغاء العملية"; /* NEW */
 
 /* No comment provided by engineer. */
 "Paste URL" = "الصق الرابط";
@@ -58,8 +82,20 @@
 "Soundfull" = "Soundfull";
 
 /* No comment provided by engineer. */
+"The URL you entered is invalid" = "الرابط غير صحيح"; /* NEW */
+
+/* No comment provided by engineer. */
 "Title" = "العنوان";
 
 /* No comment provided by engineer. */
+"URL provided is invalid" = "الرابط غير صحيح"; /* NEW */
+
+/* No comment provided by engineer. */
+"you are trying to download a non audio file" = "الملف غير مدعوم"; /* NEW */
+
+/* No comment provided by engineer. */
 "Your file has finished downloading" = "تم الانتهاء من التحميل";
+
+/* No comment provided by engineer. */
+"Youtube is not supported" = "اليوتيوب غير مدعوم"; /* NEW */
 

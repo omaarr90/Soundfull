@@ -143,7 +143,8 @@ extension LandingViewController: MusicClientDelegate {
         self.showLoadingView()
         self.loadingView.progress = progress
         if progress < 1.0 && progress > 0.0 {
-            self.loadingView.status = "\(Int(progress * 100)) % \r Downloaded"
+            let downloadedLabel = NSLocalizedString("Downloaded", comment: "")
+            self.loadingView.status = "\(Int(progress * 100)) % \r \(downloadedLabel)"
         }
     }
     
