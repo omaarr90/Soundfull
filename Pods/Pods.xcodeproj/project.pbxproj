@@ -7,109 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03AD32D1DF46A0C658FF14970DC5F5A1 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = ED247F1CFA871BD16F8B290A9161D111 /* NSPersistentStoreCoordinator+MagicalRecord.m */; };
-		049B2D6A2D7FE3350E2B82128ADBF5B8 /* MagicalRecord+ShorthandMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 040F923808530660A745A0ED9AF9FF5C /* MagicalRecord+ShorthandMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		056D557FF48F6E4044E56AB7E78724AB /* XCDYouTubeLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 527EA2F6E67D1EF282983FCC8120089D /* XCDYouTubeLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E4247F782B00E0C8A4EFA4FB69BAAA0 /* CircleSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE52902AAD2920E20F378C8B7A2CB5 /* CircleSlider-dummy.m */; };
-		12FA0F5B85EC0246490CB3938F25B64D /* SpikeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BE5C5C0751BBD698B1D32EB6741BF /* SpikeLoader.swift */; };
-		15277B0867BD514579FFDB0D74835972 /* NSManagedObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B105BAD5FB696462CDB9F34DE04363 /* NSManagedObject+MagicalDataImport.m */; };
-		1913E72F0A4802C34A0AA20CF77DA994 /* NSRelationshipDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F20E7AFD62276763A0EA0AEE37D1B80 /* NSRelationshipDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AA0A86F63FD8E8F913333BC53E68617 /* MagicalRecord+Options.h in Headers */ = {isa = PBXBuildFile; fileRef = CD96815E9B002A6A23D27B5610C3BCF3 /* MagicalRecord+Options.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C4452CC5FF3A51B271F98FC2C8D9142 /* NSManagedObject+MagicalRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B11B9CB564C7807AC3BEE86F88E5B36 /* NSManagedObject+MagicalRequests.m */; };
+		0129471B6DF033904DCC8F8A923F385C /* RoundedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025349F5481424886A7BF8D37E22048 /* RoundedLoader.swift */; };
+		03AD32D1DF46A0C658FF14970DC5F5A1 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5358D0B970822C98FB79432E339080 /* NSPersistentStoreCoordinator+MagicalRecord.m */; };
+		049B2D6A2D7FE3350E2B82128ADBF5B8 /* MagicalRecord+ShorthandMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 59ED307F437352BA0F4334BF5679A5D7 /* MagicalRecord+ShorthandMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		056D557FF48F6E4044E56AB7E78724AB /* XCDYouTubeLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A910C60847A22BD1DC56A7B53CDE0A41 /* XCDYouTubeLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E4247F782B00E0C8A4EFA4FB69BAAA0 /* CircleSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 448F166B895FBE2A0ECD8DD003EBDD00 /* CircleSlider-dummy.m */; };
+		15277B0867BD514579FFDB0D74835972 /* NSManagedObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3814CDBDD4F5699F62CDCABBF31DB /* NSManagedObject+MagicalDataImport.m */; };
+		1913E72F0A4802C34A0AA20CF77DA994 /* NSRelationshipDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFC3EA93035AFF401BD7F90E031A861 /* NSRelationshipDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AA0A86F63FD8E8F913333BC53E68617 /* MagicalRecord+Options.h in Headers */ = {isa = PBXBuildFile; fileRef = 46201294E8438827C0C38B7514F8634B /* MagicalRecord+Options.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C4452CC5FF3A51B271F98FC2C8D9142 /* NSManagedObject+MagicalRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219AFF9B3971A95ABE1AA16C896196CD /* NSManagedObject+MagicalRequests.m */; };
 		254EA27199BACFA5815D751661D8A267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FA94F23B2FFFCF67F1BF7BA25B639C /* Foundation.framework */; };
-		27AA353753FE4598C848DE8CB1701850 /* XCDYouTubeVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D4154126DF08341BE966BFB65E3FCF /* XCDYouTubeVideoPlayerViewController.m */; };
-		2CDCBD01E34DD403BA52DE2BE7AEB33A /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CB726A54B32EA29B986BD69C1233C4 /* Math.swift */; };
-		2CE8A78541D8D6C7384410E69CE9C943 /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = D367AF72A003C2CE1A86B250AE61B19A /* MagicalRecord+Setup.m */; };
-		2D31AA3CD2E3F3B3CD4B7976BAD549EC /* XCDYouTubeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EB380DC9F9633EC3CE26AA2D00D7C6DB /* XCDYouTubeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D4D6AC8E0D3BACFBA4156CB4753BCC2 /* MagicalRecordInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 19FB3EDAF98673E7A0ABEB201D4B77A9 /* MagicalRecordInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		306AFDD65FF7B78FE19A8E5B41A2BE9D /* NSManagedObjectContext+MagicalChainSave.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBE8364F26FE574A6E98E40AF86E917 /* NSManagedObjectContext+MagicalChainSave.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30EA3BB487434DBABDD3D853350C4FE4 /* NSManagedObjectContext+MagicalChainSave.m in Sources */ = {isa = PBXBuildFile; fileRef = CC713B063C06153F5C441CC249F785C2 /* NSManagedObjectContext+MagicalChainSave.m */; };
-		30F2D1DB06691DAD5B8DB6A486E24640 /* MagicalImportFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FD1897B2FA7164A843E474085FA250 /* MagicalImportFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		399837FE7D56E353450568654F75B33B /* MagicalRecord+ShorthandMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = FF11C27613504906028D82F290BE48FF /* MagicalRecord+ShorthandMethods.m */; };
-		39D9ADA7E8F03DAC16FC4BD17455163C /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 987212A8805482DD59994D9451C68778 /* XCDYouTubeVideo.m */; };
-		3DDF6DFF1F268C379E20F79668D4673F /* NSString+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 145C89A3E849C93D242F68BF748371BF /* NSString+MagicalDataImport.m */; };
+		2774A9C89171720C1F8F46FAFD63FC6D /* SpikeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A04DE2425744D70F445D809A49C92D /* SpikeLoader.swift */; };
+		27AA353753FE4598C848DE8CB1701850 /* XCDYouTubeVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6949AF865C23BF4459004ACDFF52755C /* XCDYouTubeVideoPlayerViewController.m */; };
+		2CDCBD01E34DD403BA52DE2BE7AEB33A /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3543A58B28C6CCFD68A2236766DEEEF /* Math.swift */; };
+		2CE8A78541D8D6C7384410E69CE9C943 /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 47417ECDC8825CC206587F0532A186BE /* MagicalRecord+Setup.m */; };
+		2D31AA3CD2E3F3B3CD4B7976BAD549EC /* XCDYouTubeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F59E5B96E6EFDE1A13002FFE023E6AE5 /* XCDYouTubeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D4D6AC8E0D3BACFBA4156CB4753BCC2 /* MagicalRecordInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E15DFA11D83994C3D0148122FF35381 /* MagicalRecordInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		306AFDD65FF7B78FE19A8E5B41A2BE9D /* NSManagedObjectContext+MagicalChainSave.h in Headers */ = {isa = PBXBuildFile; fileRef = CE13924B55EE9D09D5C48885920A302E /* NSManagedObjectContext+MagicalChainSave.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30EA3BB487434DBABDD3D853350C4FE4 /* NSManagedObjectContext+MagicalChainSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 489997F05AD1BB13DD32C7C75FF50F1A /* NSManagedObjectContext+MagicalChainSave.m */; };
+		30F2D1DB06691DAD5B8DB6A486E24640 /* MagicalImportFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 79634083C9BC802823EA6C79FF8A3E68 /* MagicalImportFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		396E4F2A17F44CA9121538B402A738DB /* FillableLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE064D3276A811A51ECD1309BDCF978 /* FillableLoader.swift */; };
+		399837FE7D56E353450568654F75B33B /* MagicalRecord+ShorthandMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AB6587BAC7351115F756B3BE86DF4A /* MagicalRecord+ShorthandMethods.m */; };
+		39D9ADA7E8F03DAC16FC4BD17455163C /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 026F09526BB88E6D1B0FA1536E0623FB /* XCDYouTubeVideo.m */; };
+		3DDF6DFF1F268C379E20F79668D4673F /* NSString+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 576001ED2B053E1C55D7DFC855F8D2E3 /* NSString+MagicalDataImport.m */; };
 		3E8D32E66648D327C541466FD88389C1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491256E1C407BA97D5FB87AEF36DA8E1 /* MediaPlayer.framework */; };
-		4BDC5C9BF3DB12C2AFB62E484FCA220F /* XCDYouTubeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D69BD55671223B8365F64EA514CB88F /* XCDYouTubeKit-dummy.m */; };
-		4BFDDA5AD76BDE4D1B435024BB8D3248 /* NSManagedObject+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D229A0C35115B037BF717786FC3126D /* NSManagedObject+MagicalRecord.m */; };
-		4C30B253921F4368947C50777E1B2174 /* MagicalRecordXcode7CompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B616BDE1AFEB6E4B71F12644724982 /* MagicalRecordXcode7CompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5069459E778E13E31DBB7A8F89ED8FA5 /* NSManagedObjectContext+MagicalObserving.h in Headers */ = {isa = PBXBuildFile; fileRef = BAFC370F7A336DEC4876858CAF12F637 /* NSManagedObjectContext+MagicalObserving.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51FCB5C90DAB985CC66364FFBA0E67BB /* RoundedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF93ACF288A5C78F9C25938451420A3 /* RoundedLoader.swift */; };
-		52AA8A18B25CC7793C6EDE7AE1895189 /* CircleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0AB7CE1408DF3004838F1ACC1FC87A /* CircleSlider.swift */; };
-		544D90D804D211659D6AEA2FC0CB6FB7 /* MagicalRecord+Actions.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C693AEEDA719B939CC3FBFC612D812 /* MagicalRecord+Actions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490AD6C54BA1FBDD549902EEE0AFC33F /* FillableLoaders-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C91F6C9CCCFC99C81F211781AF93A643 /* FillableLoaders-dummy.m */; };
+		4BDC5C9BF3DB12C2AFB62E484FCA220F /* XCDYouTubeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 891EC4DE0C0D323621FABD5AF588716D /* XCDYouTubeKit-dummy.m */; };
+		4BFDDA5AD76BDE4D1B435024BB8D3248 /* NSManagedObject+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE2CCEDC65EF166070A68A674CF9593 /* NSManagedObject+MagicalRecord.m */; };
+		4C30B253921F4368947C50777E1B2174 /* MagicalRecordXcode7CompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A269E1C7003B0848AF283015DA75A333 /* MagicalRecordXcode7CompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5069459E778E13E31DBB7A8F89ED8FA5 /* NSManagedObjectContext+MagicalObserving.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A80C06D3577F9E98078B443BF827F57 /* NSManagedObjectContext+MagicalObserving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52AA8A18B25CC7793C6EDE7AE1895189 /* CircleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDA71C9446446D0480E95AB6743F58D /* CircleSlider.swift */; };
+		544D90D804D211659D6AEA2FC0CB6FB7 /* MagicalRecord+Actions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C263E33C1382DA1436D4268BA1C1FC3 /* MagicalRecord+Actions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58E5CA7E23930C6EF290675F4E246272 /* Pods-Soundfull-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB165D8A1650AD46BF857283A70B2BF /* Pods-Soundfull-dummy.m */; };
-		596BB1074E1F0B0644F2F8BE3E6D7239 /* FillableLoaders-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCA1794770D6E0212DC7F2F6114E712 /* FillableLoaders-dummy.m */; };
-		5980E2581E96C0B5B45A83C03D2FFF98 /* NSManagedObjectContext+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BE0D4C4D1F13208FC368E4390E18F /* NSManagedObjectContext+MagicalRecord.m */; };
-		5AA2D07395922BE8D028A16FF60B1C14 /* MagicalRecord+ErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = CED1A88FF493E34F46ED19A799540A02 /* MagicalRecord+ErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C7AF2910F761A7A03208A689BC88C79 /* NSManagedObjectContext+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = C8758C49D8EEB8508CA16891F8E6DDE7 /* NSManagedObjectContext+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61CB1C04B4779616574043B535DA07BB /* MagicalRecordInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1EC564053B71C42843B4DFC2335DCA /* MagicalRecordInternal.m */; };
-		629499500AED258BF43DC66AFF4D847A /* MagicalRecordLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 130294927F6EF1007620E67ADD8ED1B2 /* MagicalRecordLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		657D1ECE85B38B0B6E84F31B08A9C3A3 /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = D030C5FF31617B56B6A69A6A4C041B1B /* XCDYouTubeVideoWebpage.m */; };
-		6670ABE182CD015436FF1CCC690793CD /* FillableLoaders-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 404D9102F079E12BF5CBCAFE870BFECD /* FillableLoaders-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		667D0FC53915D97F03202FD57A9BD9BF /* NSManagedObject+MagicalAggregation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CFE3EA4DE76458FBF4316502F30461 /* NSManagedObject+MagicalAggregation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67A48B2894173EB5B17262091DB14DDE /* XCDYouTubeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F0C571F5F3D5A216AD3E1134245C34 /* XCDYouTubeOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5980E2581E96C0B5B45A83C03D2FFF98 /* NSManagedObjectContext+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DFD157573813BFBF49C9D8AB79747F /* NSManagedObjectContext+MagicalRecord.m */; };
+		5AA2D07395922BE8D028A16FF60B1C14 /* MagicalRecord+ErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9BC70F2C229AE4DDE28BEA7DFCBE36 /* MagicalRecord+ErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C7AF2910F761A7A03208A689BC88C79 /* NSManagedObjectContext+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = E46201D521A44F02C3F30A66ABBF498D /* NSManagedObjectContext+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61CB1C04B4779616574043B535DA07BB /* MagicalRecordInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 362A274BE5DAE91559314CF262F26E63 /* MagicalRecordInternal.m */; };
+		629499500AED258BF43DC66AFF4D847A /* MagicalRecordLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 56370FE4156A255B72A3DAF1FF08BD45 /* MagicalRecordLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		657D1ECE85B38B0B6E84F31B08A9C3A3 /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F7F3A176D7D2E09F7A4E812803D3A /* XCDYouTubeVideoWebpage.m */; };
+		6670ABE182CD015436FF1CCC690793CD /* FillableLoaders-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 732CA9DF0F71CF89EF3444A84C290273 /* FillableLoaders-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		667D0FC53915D97F03202FD57A9BD9BF /* NSManagedObject+MagicalAggregation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE61A07067922EE8CEBE0ED375A0640 /* NSManagedObject+MagicalAggregation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A48B2894173EB5B17262091DB14DDE /* XCDYouTubeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D081B3C1395D977FC6BEBC6EA19E151D /* XCDYouTubeOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		688C7C3AC11118DDA9C8C03F3BB0C4E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FA94F23B2FFFCF67F1BF7BA25B639C /* Foundation.framework */; };
-		6E4F5321807BFF77DB0E211154AE58DA /* NSNumber+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 67709AAB91FE83E111D5F731E8685D37 /* NSNumber+MagicalDataImport.m */; };
-		6F256C75EEAE18D8A42B2DDADE72978F /* NSEntityDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 426432A33F3741E158055136C500323B /* NSEntityDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70D629E5A699FC8772DD336B844A570C /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B1997F6BB0D85DC3307E8DDB814E89 /* XCDYouTubeVideoOperation.m */; };
-		70FD9A2AFF1B6E6B79F225DC2165A3C8 /* MagicalRecord+iCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A4FB23029F6D1041632175944A28D3 /* MagicalRecord+iCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71338DC2BED3A35C92544E5530F373CD /* MagicalRecord+ErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C77FF1BBFF78FC79BED71DA11E1C7BF /* MagicalRecord+ErrorHandling.m */; };
-		73084477EE8EE76FC4B1ED12F47FD311 /* MagicalRecord+Setup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A26164EAFDE8D1E6D54BB7B99B4B396 /* MagicalRecord+Setup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78D9E1D624747E2854D6FCF25BF6E517 /* XCDYouTubeVideoOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A399BCE490F203659CCE494FC032003A /* XCDYouTubeVideoOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D4329139B594BF8D556406D930D92B6 /* XCDYouTubeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A313645B5235B13D50EADA0CE2DA7C9 /* XCDYouTubeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D671D48744E34A135DE5DCB6F4514D0 /* MagicalRecord+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = F80686168F2CAD772FAAEDC378692D95 /* MagicalRecord+Options.m */; };
-		7ED81344444A6DF982FFBD2EEB534727 /* NSManagedObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA283CD7872F3A1CADD919B0E2961AC /* NSManagedObject+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F58A626C2C5D8B3E8F6FDE38CA88552 /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F40FBC80FD31DA91EFAC008658AAB56 /* XCDYouTubeClient.m */; };
+		6E4F5321807BFF77DB0E211154AE58DA /* NSNumber+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A515357AD5563EACC684FCD1298192 /* NSNumber+MagicalDataImport.m */; };
+		6F256C75EEAE18D8A42B2DDADE72978F /* NSEntityDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4E6769173C540662BE54FF138357DD /* NSEntityDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70D629E5A699FC8772DD336B844A570C /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6460AA4A1F8612EB90992FA55F2CF9B2 /* XCDYouTubeVideoOperation.m */; };
+		70FD9A2AFF1B6E6B79F225DC2165A3C8 /* MagicalRecord+iCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BBA17AFFBFF4F5B28C6075F5646172 /* MagicalRecord+iCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71338DC2BED3A35C92544E5530F373CD /* MagicalRecord+ErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 240855172FCD5DC62BA2DFB8DDF3A5CF /* MagicalRecord+ErrorHandling.m */; };
+		73084477EE8EE76FC4B1ED12F47FD311 /* MagicalRecord+Setup.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4EF754657A71A72CAF34E82BB15D92 /* MagicalRecord+Setup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78D9E1D624747E2854D6FCF25BF6E517 /* XCDYouTubeVideoOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C686D5621E8A15438C9920C72EBD0F /* XCDYouTubeVideoOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4329139B594BF8D556406D930D92B6 /* XCDYouTubeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55953F450D9214DAE2FE948BD1C7B8FC /* XCDYouTubeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D671D48744E34A135DE5DCB6F4514D0 /* MagicalRecord+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 343715339D76FB53F8C2FF10BA2E1444 /* MagicalRecord+Options.m */; };
+		7ED81344444A6DF982FFBD2EEB534727 /* NSManagedObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E77CA04950513053CA160355BB318F /* NSManagedObject+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F58A626C2C5D8B3E8F6FDE38CA88552 /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDCC995DE2EFAB6F8E97B5813397898 /* XCDYouTubeClient.m */; };
 		7FC5D37E3D9645E1545F59A16FD1739A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E72E514AC420E47699F3F3AF09AE893 /* UIKit.framework */; };
-		8000F2BEAAE13435F365D1E3D5F469D4 /* XCDYouTubeVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 38934AD71CE85D54D235193022F2F6D0 /* XCDYouTubeVideo+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		80D0E4B3E20F3DC59F959234FB5C3AA7 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = E17886EA3EC882D3A8632FBE1D08968F /* XCDYouTubePlayerScript.m */; };
-		816A59370A429807A6BF0625EA943E93 /* NSEntityDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CDD64E06457D4484BF1E1124745EEE /* NSEntityDescription+MagicalDataImport.m */; };
-		81F42C13CA6B1B33C65BE5A228380FA4 /* XCDYouTubeError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED038AD0C7AF5098EE976FE4277B6EF /* XCDYouTubeError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8439B4D0CB837329D42F125162CBE302 /* NSManagedObjectContext+MagicalThreading.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD5074563AB67A436289D1052F68DFF /* NSManagedObjectContext+MagicalThreading.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8633489CBF8107A9A009BEE5356E847A /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B65A04E2C3C7AFE6CEA658B5D77E6B /* NSPersistentStoreCoordinator+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88EFD4487B07919A874FBFB2C63E59C1 /* NSManagedObject+MagicalFinders.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FACB1F6B035EB8A0F46121C3E6A662 /* NSManagedObject+MagicalFinders.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8968F82A4F9AB78864787BB4A95E3863 /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 08022F803F99A6E9DEA96A57D94AA8FC /* MagicalImportFunctions.m */; };
-		8B3011F7DDF300D64B90C9754C17BC5E /* NSManagedObjectModel+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C278892EA100C0BDCA2162BCE25E1E94 /* NSManagedObjectModel+MagicalRecord.m */; };
+		8000F2BEAAE13435F365D1E3D5F469D4 /* XCDYouTubeVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CDF685F6CEDFF52927885DBB5C3828 /* XCDYouTubeVideo+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80D0E4B3E20F3DC59F959234FB5C3AA7 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = A724140A3CF241F6DF1C09725C11FB1A /* XCDYouTubePlayerScript.m */; };
+		816A59370A429807A6BF0625EA943E93 /* NSEntityDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2A99640840216871C7289DD432FC22 /* NSEntityDescription+MagicalDataImport.m */; };
+		81F42C13CA6B1B33C65BE5A228380FA4 /* XCDYouTubeError.h in Headers */ = {isa = PBXBuildFile; fileRef = AE819BA177BC8A7ACB071484C6EF1F05 /* XCDYouTubeError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8439B4D0CB837329D42F125162CBE302 /* NSManagedObjectContext+MagicalThreading.h in Headers */ = {isa = PBXBuildFile; fileRef = 292C6E10A52190796EA611F520B50F94 /* NSManagedObjectContext+MagicalThreading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8633489CBF8107A9A009BEE5356E847A /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = E21522AA3B0E21CABE4879774BA3D9BF /* NSPersistentStoreCoordinator+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88EFD4487B07919A874FBFB2C63E59C1 /* NSManagedObject+MagicalFinders.h in Headers */ = {isa = PBXBuildFile; fileRef = 1631DED922389C42E4EAC796A1C5373A /* NSManagedObject+MagicalFinders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8968F82A4F9AB78864787BB4A95E3863 /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC81BD545764988F3DEAE96442610045 /* MagicalImportFunctions.m */; };
+		8B3011F7DDF300D64B90C9754C17BC5E /* NSManagedObjectModel+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB58A9A2BD4F2CBF5FA50F28B8A2CE /* NSManagedObjectModel+MagicalRecord.m */; };
 		8BA6BBC0D270167CB88EB3EC83B98C70 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2422016AE1675E72081423E81A8DEE45 /* CoreData.framework */; };
+		8BC30C030954815CE610845CC7BE974C /* PlainLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C186AC31C05B7C2A7EC0F746F8D5060E /* PlainLoader.swift */; };
 		8F7F29F112D43409ACCBA07E1313E5E9 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F310732F01137787E0C802EA93EEC31B /* JavaScriptCore.framework */; };
-		8F7FEE18DE9A69B3A9E600C1C44F9DAC /* XCDYouTubeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A28734095757FB5CB41AC1F7B336A4 /* XCDYouTubeClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9265FF69A1422CE77F534B106D3D99FC /* NSManagedObject+MagicalFinders.m in Sources */ = {isa = PBXBuildFile; fileRef = 01004075B8E9D5A9DEA8B4C35A9454E6 /* NSManagedObject+MagicalFinders.m */; };
-		96591EF6CAFDC815736CD0DA3F03C2B6 /* MagicalRecord+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 214A09484EDC894E467F9271C68970DA /* MagicalRecord+iCloud.m */; };
-		99392F8EC7223993CB7513DCF3F4E252 /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 72895ECD7E8BBAA5FB7C419444955072 /* NSManagedObjectModel+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		993DF44138AA56E195BF57614240F11F /* CircleSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0996B3E98E091F7BBAE499BDE4E34D37 /* CircleSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AD8CF32AABF9F0DBCF2EE40B2F012F1 /* XCDYouTubeLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8355F50B8160DF7BC98080B2108B7CCD /* XCDYouTubeLogger+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9C3B7B7507533450AEBDDB3A8973FC08 /* NSAttributeDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = E6191C037CB040F28C8289AE99670CCA /* NSAttributeDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A57BF308826C1FCAA31B5A3181AC9453 /* XCDYouTubeVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDE609730F73575749CBB74D3CB69A0 /* XCDYouTubeVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6801305601EFBCA72BACF051DDE349A /* NSRelationshipDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC533FFC80C25165C164A05FB457E8 /* NSRelationshipDescription+MagicalDataImport.m */; };
-		A80A78AA9E8ED6383E543D558E8188BF /* NSManagedObjectContext+MagicalObserving.m in Sources */ = {isa = PBXBuildFile; fileRef = C69F8583EBE986229512E55CE4081677 /* NSManagedObjectContext+MagicalObserving.m */; };
-		ACF290BBFC856308FD673AC61B620A33 /* NSPersistentStore+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B37D23FF06F8832CE5839C245BA9F05 /* NSPersistentStore+MagicalRecord.m */; };
-		B094A0157ED5D8F83EDBC4712A364B90 /* MagicalRecord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8323803F03DD752E6905CE838DAEEE /* MagicalRecord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B55983A36A154D43A681CC55CBC32C3C /* XCDYouTubeVideoWebpage.h in Headers */ = {isa = PBXBuildFile; fileRef = BD55CBD6DF70A230272777B52F026291 /* XCDYouTubeVideoWebpage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B7B95BD05C240C0C7DEC18868D9256CB /* NSManagedObjectContext+MagicalSaves.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D1E21A308E9AD570A72BFFA52A34F4 /* NSManagedObjectContext+MagicalSaves.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F7FEE18DE9A69B3A9E600C1C44F9DAC /* XCDYouTubeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 20801F193F8CF2AFD6831B03C7534970 /* XCDYouTubeClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9265FF69A1422CE77F534B106D3D99FC /* NSManagedObject+MagicalFinders.m in Sources */ = {isa = PBXBuildFile; fileRef = C031618DC23ABB19B0A82643EEB400CA /* NSManagedObject+MagicalFinders.m */; };
+		96591EF6CAFDC815736CD0DA3F03C2B6 /* MagicalRecord+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 2664656CFC34E6F0D82B9074A92A3E1E /* MagicalRecord+iCloud.m */; };
+		99392F8EC7223993CB7513DCF3F4E252 /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC8A8A349C4F9776452FECFE599C98D /* NSManagedObjectModel+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		993DF44138AA56E195BF57614240F11F /* CircleSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54554332E05A66B5CDDE8AA82A2BAB4D /* CircleSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AD8CF32AABF9F0DBCF2EE40B2F012F1 /* XCDYouTubeLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7FB234E3ACAB940E8603653FC66C2B /* XCDYouTubeLogger+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C3B7B7507533450AEBDDB3A8973FC08 /* NSAttributeDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D381843F7E6E79B6D571F345074EC8 /* NSAttributeDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A57BF308826C1FCAA31B5A3181AC9453 /* XCDYouTubeVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A950D7BD588C8193AED2366D0483EE /* XCDYouTubeVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6801305601EFBCA72BACF051DDE349A /* NSRelationshipDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2973E1BDDE60DD45CD05C97B5E6EA940 /* NSRelationshipDescription+MagicalDataImport.m */; };
+		A80A78AA9E8ED6383E543D558E8188BF /* NSManagedObjectContext+MagicalObserving.m in Sources */ = {isa = PBXBuildFile; fileRef = 666AC5A6514432433F9F4A0630C2EC70 /* NSManagedObjectContext+MagicalObserving.m */; };
+		ACF290BBFC856308FD673AC61B620A33 /* NSPersistentStore+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0A0AC9030216372068BB8D00E55604 /* NSPersistentStore+MagicalRecord.m */; };
+		B094A0157ED5D8F83EDBC4712A364B90 /* MagicalRecord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F303FDB9058F0D77C923EF888235CA78 /* MagicalRecord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B55983A36A154D43A681CC55CBC32C3C /* XCDYouTubeVideoWebpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2798374D89B044283BDA0853A32C8F55 /* XCDYouTubeVideoWebpage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7B95BD05C240C0C7DEC18868D9256CB /* NSManagedObjectContext+MagicalSaves.h in Headers */ = {isa = PBXBuildFile; fileRef = DB17733345FFDD119AA6EBF8CB877852 /* NSManagedObjectContext+MagicalSaves.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC40E593FBED0D0B550474F878DF442B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FA94F23B2FFFCF67F1BF7BA25B639C /* Foundation.framework */; };
 		C2F9853750DA100C47FB2D08037E3BC2 /* Pods-Soundfull-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02279C763F14AA71A28C57FA1C4DD15E /* Pods-Soundfull-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3019AF5794325C0FD3A62FE12F52E12 /* WavesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9870D658AF7C2CD8978DFD2C549394D /* WavesLoader.swift */; };
-		CA81E7EF87897833B664481EAB6B6810 /* NSManagedObject+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 15029D21DC3469E91984F0BA5CCD7C38 /* NSManagedObject+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF2831292A0DA88218A0C209C6E60E6F /* XCDYouTubePlayerScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 3782414D1E3C6F8DA0AB7A295ABB05E6 /* XCDYouTubePlayerScript.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D4A09B796CD91CFF6691A9E1607B2FA0 /* XCDYouTubeVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EB2A70CA2C1071CCA3D38CF4CB3CEF /* XCDYouTubeVideoPlayerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D87198B1BC256C63E987045530936E5C /* NSManagedObjectContext+MagicalSaves.m in Sources */ = {isa = PBXBuildFile; fileRef = F604A73E38F83B4A312B81E7985C34CC /* NSManagedObjectContext+MagicalSaves.m */; };
-		DAF3633C8655ADCD6D1BD0EB85767E40 /* PlainLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4106D3E9F3A5DB91ED476C0F9C308C /* PlainLoader.swift */; };
-		DC42291F067198C08AE861306190E289 /* MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABC1B08F741451A547040A0DF73581C /* MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF5B208728F7848D3C2EDCAB75284978 /* TrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E3317AA7B52CC6C7D943B64CC76F43 /* TrackLayer.swift */; };
-		DFBA9B8700F8398C2FBE1902552876A5 /* NSObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 544BFD88B3C06C597E6B26BD9D9FDECE /* NSObject+MagicalDataImport.m */; };
-		E1AC4B8A7025771F783FCE831739EAB1 /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E44B9022509FC6F1CD1880D8DCEFEA7 /* NSAttributeDescription+MagicalDataImport.m */; };
-		E57C081B81D220446AA8582588DB7904 /* MagicalRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5453989AFC65E6A6E5543CCC33672AD /* MagicalRecord-dummy.m */; };
-		E5CB9B6098116D0D7D76666C666F14C8 /* MagicalRecord+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD6CB0A28BB1BC507CC1945C3CD1AA6 /* MagicalRecord+Actions.m */; };
-		E7B9FC4439FDD5CA793D5738E0714483 /* NSString+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B88C164C9A1978EF72A98FB1F31F74 /* NSString+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E97D74EA7FEC699A677881FF1FAC2415 /* FillableLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886DFE2B8FE95C7248F2A0A1351C0ED1 /* FillableLoader.swift */; };
-		EA8FCE03FF6F99A621144E3ACB79C8D1 /* NSPersistentStore+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B2DC549B03A265592925D15A58C36A /* NSPersistentStore+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF8FC3376B8A5DFD6B35E0C11DEE9A9C /* NSManagedObject+MagicalRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = 29676309B5EF33CCBF8D218365C0EE21 /* NSManagedObject+MagicalRequests.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0C7FBF72689CB6EA1680E54C19D894F /* NSManagedObject+MagicalAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E0A6A13644940FF93D5E3D3CF4AE64 /* NSManagedObject+MagicalAggregation.m */; };
-		F120389ACF8726C84081CFF2FC890518 /* NSNumber+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE694080F5829121F36E82E214EE4C8 /* NSNumber+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F65639BC7068C0D7A12727FD5F0D01F2 /* MagicalRecordDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A3331DE20BE64AF905708A4003E04E7B /* MagicalRecordDeprecationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F79B38F8C77F6E2597D47276CD81BC74 /* NSObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 59EE9116ADF2348C43E1823549684CEC /* NSObject+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA4A7DAD6081898231A3A481E06D16E6 /* NSManagedObjectContext+MagicalThreading.m in Sources */ = {isa = PBXBuildFile; fileRef = 51405BC1164F28280A0E1CB80A82A86A /* NSManagedObjectContext+MagicalThreading.m */; };
+		CA81E7EF87897833B664481EAB6B6810 /* NSManagedObject+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 0138A5457D6F06235FD2D22FF33F7E5C /* NSManagedObject+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF2831292A0DA88218A0C209C6E60E6F /* XCDYouTubePlayerScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2A32068088FA7E617F3667A93EEBC4 /* XCDYouTubePlayerScript.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D4A09B796CD91CFF6691A9E1607B2FA0 /* XCDYouTubeVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C39A89C6C2D2934C1517C746758577 /* XCDYouTubeVideoPlayerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D87198B1BC256C63E987045530936E5C /* NSManagedObjectContext+MagicalSaves.m in Sources */ = {isa = PBXBuildFile; fileRef = EA869EF4A590358B68F2890917587E79 /* NSManagedObjectContext+MagicalSaves.m */; };
+		DC42291F067198C08AE861306190E289 /* MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D61CCF5408F4E0A07EB7B593C9078092 /* MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF5B208728F7848D3C2EDCAB75284978 /* TrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D6331CCFB9AA0950D3CFFF43989387 /* TrackLayer.swift */; };
+		DFBA9B8700F8398C2FBE1902552876A5 /* NSObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84777D0FC6962CF690455B273F2E1E9C /* NSObject+MagicalDataImport.m */; };
+		E0AF9067509F777C9C00D6597DCF1F9A /* WavesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288AC62FF475674502565DB1681D4E5A /* WavesLoader.swift */; };
+		E1AC4B8A7025771F783FCE831739EAB1 /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A4D01A425BCC6B9D75EE9C9F109972 /* NSAttributeDescription+MagicalDataImport.m */; };
+		E57C081B81D220446AA8582588DB7904 /* MagicalRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F301CD42B1A5D1163F379CF41C427E /* MagicalRecord-dummy.m */; };
+		E5CB9B6098116D0D7D76666C666F14C8 /* MagicalRecord+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = F902EAF3E0248273D392144D6B100BCF /* MagicalRecord+Actions.m */; };
+		E7B9FC4439FDD5CA793D5738E0714483 /* NSString+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE0ADAFB49D3207029487167F26970C /* NSString+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA8FCE03FF6F99A621144E3ACB79C8D1 /* NSPersistentStore+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAB65D308F9A8F810CD997F4493B43E /* NSPersistentStore+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF8FC3376B8A5DFD6B35E0C11DEE9A9C /* NSManagedObject+MagicalRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D86299B33CEAA9AF057AB07DF828A7 /* NSManagedObject+MagicalRequests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0C7FBF72689CB6EA1680E54C19D894F /* NSManagedObject+MagicalAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E0516CE8A8245155DA0D1EA6269DD4 /* NSManagedObject+MagicalAggregation.m */; };
+		F120389ACF8726C84081CFF2FC890518 /* NSNumber+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 059B2CBE1CAA02F7395938E1A6099E4A /* NSNumber+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65639BC7068C0D7A12727FD5F0D01F2 /* MagicalRecordDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF32991CF6A98ABE8FC91FF61271B83 /* MagicalRecordDeprecationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79B38F8C77F6E2597D47276CD81BC74 /* NSObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 7295135ABC7C777B5F4BF5EA2527942E /* NSObject+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4A7DAD6081898231A3A481E06D16E6 /* NSManagedObjectContext+MagicalThreading.m in Sources */ = {isa = PBXBuildFile; fileRef = 17902E056E0C087C12CDF15CD422A1FF /* NSManagedObjectContext+MagicalThreading.m */; };
 		FADE62114F717424D38B6D64E592A55F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FA94F23B2FFFCF67F1BF7BA25B639C /* Foundation.framework */; };
-		FAF5A27A86C4D1DDDC62F029AFFBD862 /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD31019CD5D8DE33A1C087CE9C6A61F /* XCDYouTubeLogger.m */; };
+		FAF5A27A86C4D1DDDC62F029AFFBD862 /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E61D785101ED6D07C545901D6060ED /* XCDYouTubeLogger.m */; };
 		FB3C6BD040EA73CEFACDEE7E1A5A4A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FA94F23B2FFFCF67F1BF7BA25B639C /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -146,135 +146,135 @@
 
 /* Begin PBXFileReference section */
 		0076C8317EA8B726156E991628DCCAB4 /* FillableLoaders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FillableLoaders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		01004075B8E9D5A9DEA8B4C35A9454E6 /* NSManagedObject+MagicalFinders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalFinders.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.m"; sourceTree = "<group>"; };
-		01CFE3EA4DE76458FBF4316502F30461 /* NSManagedObject+MagicalAggregation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalAggregation.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.h"; sourceTree = "<group>"; };
+		0138A5457D6F06235FD2D22FF33F7E5C /* NSManagedObject+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.h"; sourceTree = "<group>"; };
 		02279C763F14AA71A28C57FA1C4DD15E /* Pods-Soundfull-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Soundfull-umbrella.h"; sourceTree = "<group>"; };
-		040F923808530660A745A0ED9AF9FF5C /* MagicalRecord+ShorthandMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ShorthandMethods.h"; path = "MagicalRecord/Core/MagicalRecord+ShorthandMethods.h"; sourceTree = "<group>"; };
-		04B88C164C9A1978EF72A98FB1F31F74 /* NSString+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.h"; sourceTree = "<group>"; };
-		06D300F01D0C9C07275F4A1EF10EBBD3 /* XCDYouTubeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCDYouTubeKit.xcconfig; sourceTree = "<group>"; };
-		08022F803F99A6E9DEA96A57D94AA8FC /* MagicalImportFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalImportFunctions.m; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.m; sourceTree = "<group>"; };
-		0996B3E98E091F7BBAE499BDE4E34D37 /* CircleSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleSlider-umbrella.h"; sourceTree = "<group>"; };
-		0B6260F0AEB808DB503D08E17F7D9C16 /* CircleSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleSlider.xcconfig; sourceTree = "<group>"; };
-		0BC5ADAA44BCA72539937FEFAAFBD3F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D69BD55671223B8365F64EA514CB88F /* XCDYouTubeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCDYouTubeKit-dummy.m"; sourceTree = "<group>"; };
-		0E44B9022509FC6F1CD1880D8DCEFEA7 /* NSAttributeDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributeDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
-		130294927F6EF1007620E67ADD8ED1B2 /* MagicalRecordLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordLogging.h; path = MagicalRecord/Core/MagicalRecordLogging.h; sourceTree = "<group>"; };
-		145C89A3E849C93D242F68BF748371BF /* NSString+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.m"; sourceTree = "<group>"; };
-		15029D21DC3469E91984F0BA5CCD7C38 /* NSManagedObject+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.h"; sourceTree = "<group>"; };
-		1909E30F83C066324EA77395B55ECC03 /* MagicalRecord.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagicalRecord.xcconfig; sourceTree = "<group>"; };
-		19FB3EDAF98673E7A0ABEB201D4B77A9 /* MagicalRecordInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordInternal.h; path = MagicalRecord/Core/MagicalRecordInternal.h; sourceTree = "<group>"; };
-		214A09484EDC894E467F9271C68970DA /* MagicalRecord+iCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+iCloud.m"; path = "MagicalRecord/Core/MagicalRecord+iCloud.m"; sourceTree = "<group>"; };
-		222E589E641B59B57297980A6A022207 /* CircleSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleSlider-prefix.pch"; sourceTree = "<group>"; };
+		026F09526BB88E6D1B0FA1536E0623FB /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideo.m; path = XCDYouTubeKit/XCDYouTubeVideo.m; sourceTree = "<group>"; };
+		059B2CBE1CAA02F7395938E1A6099E4A /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.h"; sourceTree = "<group>"; };
+		0F7FB234E3ACAB940E8603653FC66C2B /* XCDYouTubeLogger+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeLogger+Private.h"; path = "XCDYouTubeKit/XCDYouTubeLogger+Private.h"; sourceTree = "<group>"; };
+		10F98E799DDC50FDB2EF0AA0B26A76BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1631DED922389C42E4EAC796A1C5373A /* NSManagedObject+MagicalFinders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalFinders.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.h"; sourceTree = "<group>"; };
+		16656C62A2C687DCE2922731C4F220E9 /* MagicalRecord.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagicalRecord.xcconfig; sourceTree = "<group>"; };
+		16E0516CE8A8245155DA0D1EA6269DD4 /* NSManagedObject+MagicalAggregation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalAggregation.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.m"; sourceTree = "<group>"; };
+		17902E056E0C087C12CDF15CD422A1FF /* NSManagedObjectContext+MagicalThreading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalThreading.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.m"; sourceTree = "<group>"; };
+		1C263E33C1382DA1436D4268BA1C1FC3 /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Actions.h"; path = "MagicalRecord/Core/MagicalRecord+Actions.h"; sourceTree = "<group>"; };
+		1CDCC995DE2EFAB6F8E97B5813397898 /* XCDYouTubeClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeClient.m; path = XCDYouTubeKit/XCDYouTubeClient.m; sourceTree = "<group>"; };
+		1D5845721FC4D3E79989E8043C418B56 /* CircleSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleSlider.xcconfig; sourceTree = "<group>"; };
+		1FAB65D308F9A8F810CD997F4493B43E /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStore+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
+		1FE064D3276A811A51ECD1309BDCF978 /* FillableLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillableLoader.swift; path = Source/FillableLoader.swift; sourceTree = "<group>"; };
+		20801F193F8CF2AFD6831B03C7534970 /* XCDYouTubeClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeClient.h; path = XCDYouTubeKit/XCDYouTubeClient.h; sourceTree = "<group>"; };
+		219AFF9B3971A95ABE1AA16C896196CD /* NSManagedObject+MagicalRequests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRequests.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.m"; sourceTree = "<group>"; };
+		2361C87613F18E1F41F6870674D5DC2E /* CircleSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CircleSlider.modulemap; sourceTree = "<group>"; };
+		23D86299B33CEAA9AF057AB07DF828A7 /* NSManagedObject+MagicalRequests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRequests.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.h"; sourceTree = "<group>"; };
+		240855172FCD5DC62BA2DFB8DDF3A5CF /* MagicalRecord+ErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ErrorHandling.m"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.m"; sourceTree = "<group>"; };
 		2422016AE1675E72081423E81A8DEE45 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
-		28A28734095757FB5CB41AC1F7B336A4 /* XCDYouTubeClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeClient.h; path = XCDYouTubeKit/XCDYouTubeClient.h; sourceTree = "<group>"; };
-		28A4FB23029F6D1041632175944A28D3 /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+iCloud.h"; path = "MagicalRecord/Core/MagicalRecord+iCloud.h"; sourceTree = "<group>"; };
-		29676309B5EF33CCBF8D218365C0EE21 /* NSManagedObject+MagicalRequests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRequests.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.h"; sourceTree = "<group>"; };
-		2B11B9CB564C7807AC3BEE86F88E5B36 /* NSManagedObject+MagicalRequests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRequests.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.m"; sourceTree = "<group>"; };
-		2CE2944BFC025526B12E49B5B0D1F5C8 /* FillableLoaders-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FillableLoaders-prefix.pch"; sourceTree = "<group>"; };
+		24DFD157573813BFBF49C9D8AB79747F /* NSManagedObjectContext+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.m"; sourceTree = "<group>"; };
+		2664656CFC34E6F0D82B9074A92A3E1E /* MagicalRecord+iCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+iCloud.m"; path = "MagicalRecord/Core/MagicalRecord+iCloud.m"; sourceTree = "<group>"; };
+		2798374D89B044283BDA0853A32C8F55 /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoWebpage.h; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.h; sourceTree = "<group>"; };
+		288AC62FF475674502565DB1681D4E5A /* WavesLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WavesLoader.swift; path = Source/WavesLoader.swift; sourceTree = "<group>"; };
+		292C6E10A52190796EA611F520B50F94 /* NSManagedObjectContext+MagicalThreading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalThreading.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"; sourceTree = "<group>"; };
+		2973E1BDDE60DD45CD05C97B5E6EA940 /* NSRelationshipDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRelationshipDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		2CE61A07067922EE8CEBE0ED375A0640 /* NSManagedObject+MagicalAggregation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalAggregation.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.h"; sourceTree = "<group>"; };
+		2E15DFA11D83994C3D0148122FF35381 /* MagicalRecordInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordInternal.h; path = MagicalRecord/Core/MagicalRecordInternal.h; sourceTree = "<group>"; };
 		2E65E0792C23859A2A950CA52D0C7B49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FCA1794770D6E0212DC7F2F6114E712 /* FillableLoaders-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FillableLoaders-dummy.m"; sourceTree = "<group>"; };
-		2FDC533FFC80C25165C164A05FB457E8 /* NSRelationshipDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRelationshipDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
-		33B105BAD5FB696462CDB9F34DE04363 /* NSManagedObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.m"; sourceTree = "<group>"; };
-		3782414D1E3C6F8DA0AB7A295ABB05E6 /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubePlayerScript.h; path = XCDYouTubeKit/XCDYouTubePlayerScript.h; sourceTree = "<group>"; };
-		38934AD71CE85D54D235193022F2F6D0 /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeVideo+Private.h"; path = "XCDYouTubeKit/XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; };
-		39CB726A54B32EA29B986BD69C1233C4 /* Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Math.swift; path = Pod/Classes/Math.swift; sourceTree = "<group>"; };
-		3C8323803F03DD752E6905CE838DAEEE /* MagicalRecord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-umbrella.h"; sourceTree = "<group>"; };
-		3D0AB7CE1408DF3004838F1ACC1FC87A /* CircleSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleSlider.swift; path = Pod/Classes/CircleSlider.swift; sourceTree = "<group>"; };
-		404D9102F079E12BF5CBCAFE870BFECD /* FillableLoaders-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FillableLoaders-umbrella.h"; sourceTree = "<group>"; };
-		41FD1897B2FA7164A843E474085FA250 /* MagicalImportFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalImportFunctions.h; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.h; sourceTree = "<group>"; };
-		426432A33F3741E158055136C500323B /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSEntityDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
-		46D4154126DF08341BE966BFB65E3FCF /* XCDYouTubeVideoPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoPlayerViewController.m; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.m; sourceTree = "<group>"; };
+		2FC8A8A349C4F9776452FECFE599C98D /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectModel+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.h"; sourceTree = "<group>"; };
+		32FF8723548D7ABA7473384CE2DE2C68 /* XCDYouTubeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCDYouTubeKit.xcconfig; sourceTree = "<group>"; };
+		3333DAB4E87B9F08D8737528C8D23BF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CDF685F6CEDFF52927885DBB5C3828 /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeVideo+Private.h"; path = "XCDYouTubeKit/XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; };
+		343715339D76FB53F8C2FF10BA2E1444 /* MagicalRecord+Options.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Options.m"; path = "MagicalRecord/Core/MagicalRecord+Options.m"; sourceTree = "<group>"; };
+		362A274BE5DAE91559314CF262F26E63 /* MagicalRecordInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalRecordInternal.m; path = MagicalRecord/Core/MagicalRecordInternal.m; sourceTree = "<group>"; };
+		448F166B895FBE2A0ECD8DD003EBDD00 /* CircleSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleSlider-dummy.m"; sourceTree = "<group>"; };
+		46201294E8438827C0C38B7514F8634B /* MagicalRecord+Options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Options.h"; path = "MagicalRecord/Core/MagicalRecord+Options.h"; sourceTree = "<group>"; };
+		46AB58A9A2BD4F2CBF5FA50F28B8A2CE /* NSManagedObjectModel+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectModel+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.m"; sourceTree = "<group>"; };
+		47417ECDC8825CC206587F0532A186BE /* MagicalRecord+Setup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Setup.m"; path = "MagicalRecord/Core/MagicalRecord+Setup.m"; sourceTree = "<group>"; };
+		47D6331CCFB9AA0950D3CFFF43989387 /* TrackLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackLayer.swift; path = Pod/Classes/TrackLayer.swift; sourceTree = "<group>"; };
+		489997F05AD1BB13DD32C7C75FF50F1A /* NSManagedObjectContext+MagicalChainSave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalChainSave.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalChainSave.m"; sourceTree = "<group>"; };
 		491256E1C407BA97D5FB87AEF36DA8E1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
-		4A26164EAFDE8D1E6D54BB7B99B4B396 /* MagicalRecord+Setup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Setup.h"; path = "MagicalRecord/Core/MagicalRecord+Setup.h"; sourceTree = "<group>"; };
-		4C4BECFBF88DF1255874A3E4F2F159D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E8BE0D4C4D1F13208FC368E4390E18F /* NSManagedObjectContext+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.m"; sourceTree = "<group>"; };
-		4F20E7AFD62276763A0EA0AEE37D1B80 /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRelationshipDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
-		51405BC1164F28280A0E1CB80A82A86A /* NSManagedObjectContext+MagicalThreading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalThreading.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.m"; sourceTree = "<group>"; };
-		527EA2F6E67D1EF282983FCC8120089D /* XCDYouTubeLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeLogger.h; path = XCDYouTubeKit/XCDYouTubeLogger.h; sourceTree = "<group>"; };
-		544BFD88B3C06C597E6B26BD9D9FDECE /* NSObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		4F2A32068088FA7E617F3667A93EEBC4 /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubePlayerScript.h; path = XCDYouTubeKit/XCDYouTubePlayerScript.h; sourceTree = "<group>"; };
+		5390F24E758954CA1C67DD4D0AFFF189 /* FillableLoaders-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FillableLoaders-prefix.pch"; sourceTree = "<group>"; };
+		54554332E05A66B5CDDE8AA82A2BAB4D /* CircleSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleSlider-umbrella.h"; sourceTree = "<group>"; };
 		5571F65CE6B7FCC62F33CC1005E91CD2 /* MagicalRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MagicalRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59EE9116ADF2348C43E1823549684CEC /* NSObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.h"; sourceTree = "<group>"; };
-		59FACB1F6B035EB8A0F46121C3E6A662 /* NSManagedObject+MagicalFinders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalFinders.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.h"; sourceTree = "<group>"; };
-		5C77FF1BBFF78FC79BED71DA11E1C7BF /* MagicalRecord+ErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ErrorHandling.m"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.m"; sourceTree = "<group>"; };
+		55953F450D9214DAE2FE948BD1C7B8FC /* XCDYouTubeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeKit-umbrella.h"; sourceTree = "<group>"; };
+		56370FE4156A255B72A3DAF1FF08BD45 /* MagicalRecordLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordLogging.h; path = MagicalRecord/Core/MagicalRecordLogging.h; sourceTree = "<group>"; };
+		576001ED2B053E1C55D7DFC855F8D2E3 /* NSString+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.m"; sourceTree = "<group>"; };
+		58362087A0109C17F9836BF54A8B1013 /* FillableLoaders.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FillableLoaders.modulemap; sourceTree = "<group>"; };
+		59ED307F437352BA0F4334BF5679A5D7 /* MagicalRecord+ShorthandMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ShorthandMethods.h"; path = "MagicalRecord/Core/MagicalRecord+ShorthandMethods.h"; sourceTree = "<group>"; };
+		5A23E7E4DBECE74352F2A562794844BA /* CircleSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleSlider-prefix.pch"; sourceTree = "<group>"; };
 		5DB165D8A1650AD46BF857283A70B2BF /* Pods-Soundfull-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Soundfull-dummy.m"; sourceTree = "<group>"; };
-		634AAAD3DCC5311D597076BD5DC28BC3 /* FillableLoaders.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FillableLoaders.modulemap; sourceTree = "<group>"; };
-		67709AAB91FE83E111D5F731E8685D37 /* NSNumber+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.m"; sourceTree = "<group>"; };
+		5FFC3EA93035AFF401BD7F90E031A861 /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRelationshipDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		60A950D7BD588C8193AED2366D0483EE /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideo.h; path = XCDYouTubeKit/XCDYouTubeVideo.h; sourceTree = "<group>"; };
+		6460AA4A1F8612EB90992FA55F2CF9B2 /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoOperation.m; path = XCDYouTubeKit/XCDYouTubeVideoOperation.m; sourceTree = "<group>"; };
+		666AC5A6514432433F9F4A0630C2EC70 /* NSManagedObjectContext+MagicalObserving.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalObserving.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.m"; sourceTree = "<group>"; };
 		68FA94F23B2FFFCF67F1BF7BA25B639C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6944372E4BFA218A3799FEE7167330E2 /* CircleSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6949AF865C23BF4459004ACDFF52755C /* XCDYouTubeVideoPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoPlayerViewController.m; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.m; sourceTree = "<group>"; };
 		6F1C435AFE9365CB3E6A8AC83F0161B5 /* Pods-Soundfull.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Soundfull.modulemap"; sourceTree = "<group>"; };
-		70C693AEEDA719B939CC3FBFC612D812 /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Actions.h"; path = "MagicalRecord/Core/MagicalRecord+Actions.h"; sourceTree = "<group>"; };
-		72895ECD7E8BBAA5FB7C419444955072 /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectModel+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.h"; sourceTree = "<group>"; };
-		778B29170A739D15F0B16259FA5F25EA /* MagicalRecord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MagicalRecord.modulemap; sourceTree = "<group>"; };
-		778BCE87A3BF2B485AE6A8705B3930CA /* CircleSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CircleSlider.modulemap; sourceTree = "<group>"; };
-		78B2DC549B03A265592925D15A58C36A /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStore+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
+		6F5358D0B970822C98FB79432E339080 /* NSPersistentStoreCoordinator+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStoreCoordinator+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.m"; sourceTree = "<group>"; };
+		7295135ABC7C777B5F4BF5EA2527942E /* NSObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		732CA9DF0F71CF89EF3444A84C290273 /* FillableLoaders-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FillableLoaders-umbrella.h"; sourceTree = "<group>"; };
+		74A515357AD5563EACC684FCD1298192 /* NSNumber+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.m"; sourceTree = "<group>"; };
+		79634083C9BC802823EA6C79FF8A3E68 /* MagicalImportFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalImportFunctions.h; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.h; sourceTree = "<group>"; };
+		7A80C06D3577F9E98078B443BF827F57 /* NSManagedObjectContext+MagicalObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalObserving.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.h"; sourceTree = "<group>"; };
 		7C2DF510CB76B300EEB3A83248A8393E /* Pods_Soundfull.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soundfull.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DE694080F5829121F36E82E214EE4C8 /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.h"; sourceTree = "<group>"; };
-		7F40FBC80FD31DA91EFAC008658AAB56 /* XCDYouTubeClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeClient.m; path = XCDYouTubeKit/XCDYouTubeClient.m; sourceTree = "<group>"; };
-		8152EF0A87FAD218159808F036D750EB /* XCDYouTubeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XCDYouTubeKit.modulemap; sourceTree = "<group>"; };
-		821AA217E2C4AC0AA1129349058D647C /* XCDYouTubeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeKit-prefix.pch"; sourceTree = "<group>"; };
-		822C17CFA2008703FC7BA9B0A2877FFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		828233A93C56967E6DAD44262DBED084 /* FillableLoaders.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FillableLoaders.xcconfig; sourceTree = "<group>"; };
-		8355F50B8160DF7BC98080B2108B7CCD /* XCDYouTubeLogger+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeLogger+Private.h"; path = "XCDYouTubeKit/XCDYouTubeLogger+Private.h"; sourceTree = "<group>"; };
-		842BE5C5C0751BBD698B1D32EB6741BF /* SpikeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpikeLoader.swift; sourceTree = "<group>"; };
+		7D83D42BD9E72601991E1EBF61F57BB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F0A0AC9030216372068BB8D00E55604 /* NSPersistentStore+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStore+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.m"; sourceTree = "<group>"; };
+		84777D0FC6962CF690455B273F2E1E9C /* NSObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.m"; sourceTree = "<group>"; };
 		86426CB933E905BE13A86EFAE8B471DD /* Pods-Soundfull-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Soundfull-acknowledgements.markdown"; sourceTree = "<group>"; };
-		886DFE2B8FE95C7248F2A0A1351C0ED1 /* FillableLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FillableLoader.swift; sourceTree = "<group>"; };
-		88E3317AA7B52CC6C7D943B64CC76F43 /* TrackLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackLayer.swift; path = Pod/Classes/TrackLayer.swift; sourceTree = "<group>"; };
-		8D229A0C35115B037BF717786FC3126D /* NSManagedObject+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.m"; sourceTree = "<group>"; };
+		87E61D785101ED6D07C545901D6060ED /* XCDYouTubeLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeLogger.m; path = XCDYouTubeKit/XCDYouTubeLogger.m; sourceTree = "<group>"; };
+		891EC4DE0C0D323621FABD5AF588716D /* XCDYouTubeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCDYouTubeKit-dummy.m"; sourceTree = "<group>"; };
 		8E72E514AC420E47699F3F3AF09AE893 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		90CDD64E06457D4484BF1E1124745EEE /* NSEntityDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSEntityDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
-		94B616BDE1AFEB6E4B71F12644724982 /* MagicalRecordXcode7CompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordXcode7CompatibilityMacros.h; path = MagicalRecord/Core/MagicalRecordXcode7CompatibilityMacros.h; sourceTree = "<group>"; };
-		987212A8805482DD59994D9451C68778 /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideo.m; path = XCDYouTubeKit/XCDYouTubeVideo.m; sourceTree = "<group>"; };
-		9A313645B5235B13D50EADA0CE2DA7C9 /* XCDYouTubeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeKit-umbrella.h"; sourceTree = "<group>"; };
-		9ABC1B08F741451A547040A0DF73581C /* MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecord.h; path = MagicalRecord/MagicalRecord.h; sourceTree = "<group>"; };
-		9B37D23FF06F8832CE5839C245BA9F05 /* NSPersistentStore+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStore+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.m"; sourceTree = "<group>"; };
+		91C686D5621E8A15438C9920C72EBD0F /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoOperation.h; path = XCDYouTubeKit/XCDYouTubeVideoOperation.h; sourceTree = "<group>"; };
+		93A4D01A425BCC6B9D75EE9C9F109972 /* NSAttributeDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributeDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		93E77CA04950513053CA160355BB318F /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		9A4EF754657A71A72CAF34E82BB15D92 /* MagicalRecord+Setup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Setup.h"; path = "MagicalRecord/Core/MagicalRecord+Setup.h"; sourceTree = "<group>"; };
 		9BC2B3851A978AE2C1941F2514E60A9B /* Pods-Soundfull-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Soundfull-frameworks.sh"; sourceTree = "<group>"; };
-		9CD6CB0A28BB1BC507CC1945C3CD1AA6 /* MagicalRecord+Actions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Actions.m"; path = "MagicalRecord/Core/MagicalRecord+Actions.m"; sourceTree = "<group>"; };
-		9ED038AD0C7AF5098EE976FE4277B6EF /* XCDYouTubeError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeError.h; path = XCDYouTubeKit/XCDYouTubeError.h; sourceTree = "<group>"; };
-		9EF93ACF288A5C78F9C25938451420A3 /* RoundedLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RoundedLoader.swift; sourceTree = "<group>"; };
-		9FA283CD7872F3A1CADD919B0E2961AC /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.h"; sourceTree = "<group>"; };
-		A3331DE20BE64AF905708A4003E04E7B /* MagicalRecordDeprecationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordDeprecationMacros.h; path = MagicalRecord/Core/MagicalRecordDeprecationMacros.h; sourceTree = "<group>"; };
-		A399BCE490F203659CCE494FC032003A /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoOperation.h; path = XCDYouTubeKit/XCDYouTubeVideoOperation.h; sourceTree = "<group>"; };
+		9CF32991CF6A98ABE8FC91FF61271B83 /* MagicalRecordDeprecationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordDeprecationMacros.h; path = MagicalRecord/Core/MagicalRecordDeprecationMacros.h; sourceTree = "<group>"; };
+		9F4E6769173C540662BE54FF138357DD /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSEntityDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		A269E1C7003B0848AF283015DA75A333 /* MagicalRecordXcode7CompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordXcode7CompatibilityMacros.h; path = MagicalRecord/Core/MagicalRecordXcode7CompatibilityMacros.h; sourceTree = "<group>"; };
 		A3D5BAA647F71BF9622A550071B75B35 /* Pods-Soundfull.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Soundfull.debug.xcconfig"; sourceTree = "<group>"; };
-		A7F0C571F5F3D5A216AD3E1134245C34 /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeOperation.h; path = XCDYouTubeKit/XCDYouTubeOperation.h; sourceTree = "<group>"; };
-		AC8ABDEAA7BBE72FF035E07B3708B716 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0BE52902AAD2920E20F378C8B7A2CB5 /* CircleSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleSlider-dummy.m"; sourceTree = "<group>"; };
+		A724140A3CF241F6DF1C09725C11FB1A /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubePlayerScript.m; path = XCDYouTubeKit/XCDYouTubePlayerScript.m; sourceTree = "<group>"; };
+		A910C60847A22BD1DC56A7B53CDE0A41 /* XCDYouTubeLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeLogger.h; path = XCDYouTubeKit/XCDYouTubeLogger.h; sourceTree = "<group>"; };
+		AE819BA177BC8A7ACB071484C6EF1F05 /* XCDYouTubeError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeError.h; path = XCDYouTubeKit/XCDYouTubeError.h; sourceTree = "<group>"; };
+		B025349F5481424886A7BF8D37E22048 /* RoundedLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundedLoader.swift; path = Source/RoundedLoader.swift; sourceTree = "<group>"; };
 		B25134CA222935C9A7D6A0444E64917C /* Pods-Soundfull.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Soundfull.release.xcconfig"; sourceTree = "<group>"; };
-		B3B1997F6BB0D85DC3307E8DDB814E89 /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoOperation.m; path = XCDYouTubeKit/XCDYouTubeVideoOperation.m; sourceTree = "<group>"; };
-		B7D1E21A308E9AD570A72BFFA52A34F4 /* NSManagedObjectContext+MagicalSaves.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalSaves.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.h"; sourceTree = "<group>"; };
+		B98F7F3A176D7D2E09F7A4E812803D3A /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoWebpage.m; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BAFC370F7A336DEC4876858CAF12F637 /* NSManagedObjectContext+MagicalObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalObserving.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.h"; sourceTree = "<group>"; };
-		BB1EC564053B71C42843B4DFC2335DCA /* MagicalRecordInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalRecordInternal.m; path = MagicalRecord/Core/MagicalRecordInternal.m; sourceTree = "<group>"; };
+		BC81BD545764988F3DEAE96442610045 /* MagicalImportFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalImportFunctions.m; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.m; sourceTree = "<group>"; };
 		BCFB649C6D1CDEF126CC21B335A6E6D4 /* Pods-Soundfull-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Soundfull-resources.sh"; sourceTree = "<group>"; };
-		BD55CBD6DF70A230272777B52F026291 /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoWebpage.h; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.h; sourceTree = "<group>"; };
-		C0E0A6A13644940FF93D5E3D3CF4AE64 /* NSManagedObject+MagicalAggregation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalAggregation.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.m"; sourceTree = "<group>"; };
-		C278892EA100C0BDCA2162BCE25E1E94 /* NSManagedObjectModel+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectModel+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.m"; sourceTree = "<group>"; };
+		BDE0ADAFB49D3207029487167F26970C /* NSString+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.h"; sourceTree = "<group>"; };
+		BFDA71C9446446D0480E95AB6743F58D /* CircleSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleSlider.swift; path = Pod/Classes/CircleSlider.swift; sourceTree = "<group>"; };
+		C031618DC23ABB19B0A82643EEB400CA /* NSManagedObject+MagicalFinders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalFinders.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.m"; sourceTree = "<group>"; };
+		C186AC31C05B7C2A7EC0F746F8D5060E /* PlainLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlainLoader.swift; path = Source/PlainLoader.swift; sourceTree = "<group>"; };
+		C2A04DE2425744D70F445D809A49C92D /* SpikeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpikeLoader.swift; path = Source/SpikeLoader.swift; sourceTree = "<group>"; };
 		C496F4A909F76C2582EAB9A8C6EA2251 /* Pods-Soundfull-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Soundfull-acknowledgements.plist"; sourceTree = "<group>"; };
-		C69F8583EBE986229512E55CE4081677 /* NSManagedObjectContext+MagicalObserving.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalObserving.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.m"; sourceTree = "<group>"; };
-		C7EB2A70CA2C1071CCA3D38CF4CB3CEF /* XCDYouTubeVideoPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoPlayerViewController.h; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.h; sourceTree = "<group>"; };
-		C8758C49D8EEB8508CA16891F8E6DDE7 /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h"; sourceTree = "<group>"; };
-		C9870D658AF7C2CD8978DFD2C549394D /* WavesLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WavesLoader.swift; sourceTree = "<group>"; };
-		CC713B063C06153F5C441CC249F785C2 /* NSManagedObjectContext+MagicalChainSave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalChainSave.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalChainSave.m"; sourceTree = "<group>"; };
-		CD7ECCD5BBF6BD993187D30C6BEF3C85 /* MagicalRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-prefix.pch"; sourceTree = "<group>"; };
-		CD96815E9B002A6A23D27B5610C3BCF3 /* MagicalRecord+Options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Options.h"; path = "MagicalRecord/Core/MagicalRecord+Options.h"; sourceTree = "<group>"; };
+		C91F6C9CCCFC99C81F211781AF93A643 /* FillableLoaders-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FillableLoaders-dummy.m"; sourceTree = "<group>"; };
+		C9BBA17AFFBFF4F5B28C6075F5646172 /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+iCloud.h"; path = "MagicalRecord/Core/MagicalRecord+iCloud.h"; sourceTree = "<group>"; };
 		CE112E9DD11A4220E2B1165E9051FFF7 /* XCDYouTubeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCDYouTubeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CED1A88FF493E34F46ED19A799540A02 /* MagicalRecord+ErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ErrorHandling.h"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.h"; sourceTree = "<group>"; };
-		D030C5FF31617B56B6A69A6A4C041B1B /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoWebpage.m; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.m; sourceTree = "<group>"; };
-		D367AF72A003C2CE1A86B250AE61B19A /* MagicalRecord+Setup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Setup.m"; path = "MagicalRecord/Core/MagicalRecord+Setup.m"; sourceTree = "<group>"; };
-		DC4106D3E9F3A5DB91ED476C0F9C308C /* PlainLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlainLoader.swift; sourceTree = "<group>"; };
-		DDD5074563AB67A436289D1052F68DFF /* NSManagedObjectContext+MagicalThreading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalThreading.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"; sourceTree = "<group>"; };
-		E17886EA3EC882D3A8632FBE1D08968F /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubePlayerScript.m; path = XCDYouTubeKit/XCDYouTubePlayerScript.m; sourceTree = "<group>"; };
-		E1B65A04E2C3C7AFE6CEA658B5D77E6B /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStoreCoordinator+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = "<group>"; };
-		E5453989AFC65E6A6E5543CCC33672AD /* MagicalRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord-dummy.m"; sourceTree = "<group>"; };
-		E6191C037CB040F28C8289AE99670CCA /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributeDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
-		EB380DC9F9633EC3CE26AA2D00D7C6DB /* XCDYouTubeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeKit.h; path = XCDYouTubeKit/XCDYouTubeKit.h; sourceTree = "<group>"; };
-		ECD31019CD5D8DE33A1C087CE9C6A61F /* XCDYouTubeLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeLogger.m; path = XCDYouTubeKit/XCDYouTubeLogger.m; sourceTree = "<group>"; };
-		ED247F1CFA871BD16F8B290A9161D111 /* NSPersistentStoreCoordinator+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStoreCoordinator+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.m"; sourceTree = "<group>"; };
-		EDDE609730F73575749CBB74D3CB69A0 /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideo.h; path = XCDYouTubeKit/XCDYouTubeVideo.h; sourceTree = "<group>"; };
-		EFBE8364F26FE574A6E98E40AF86E917 /* NSManagedObjectContext+MagicalChainSave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalChainSave.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalChainSave.h"; sourceTree = "<group>"; };
+		CE13924B55EE9D09D5C48885920A302E /* NSManagedObjectContext+MagicalChainSave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalChainSave.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalChainSave.h"; sourceTree = "<group>"; };
+		D081B3C1395D977FC6BEBC6EA19E151D /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeOperation.h; path = XCDYouTubeKit/XCDYouTubeOperation.h; sourceTree = "<group>"; };
+		D3543A58B28C6CCFD68A2236766DEEEF /* Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Math.swift; path = Pod/Classes/Math.swift; sourceTree = "<group>"; };
+		D4D245255777F810699A2E4E893CCAD2 /* MagicalRecord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MagicalRecord.modulemap; sourceTree = "<group>"; };
+		D5F301CD42B1A5D1163F379CF41C427E /* MagicalRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord-dummy.m"; sourceTree = "<group>"; };
+		D61CCF5408F4E0A07EB7B593C9078092 /* MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecord.h; path = MagicalRecord/MagicalRecord.h; sourceTree = "<group>"; };
+		DB17733345FFDD119AA6EBF8CB877852 /* NSManagedObjectContext+MagicalSaves.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalSaves.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.h"; sourceTree = "<group>"; };
+		E1C3814CDBDD4F5699F62CDCABBF31DB /* NSManagedObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		E21522AA3B0E21CABE4879774BA3D9BF /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStoreCoordinator+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = "<group>"; };
+		E46201D521A44F02C3F30A66ABBF498D /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h"; sourceTree = "<group>"; };
+		E6D381843F7E6E79B6D571F345074EC8 /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributeDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		E7ABC4F1D10124EF24014829A5C460DD /* FillableLoaders.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FillableLoaders.xcconfig; sourceTree = "<group>"; };
+		E8C39A89C6C2D2934C1517C746758577 /* XCDYouTubeVideoPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoPlayerViewController.h; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.h; sourceTree = "<group>"; };
+		E8C9CE840DF0381F200604D8FC599B26 /* XCDYouTubeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeKit-prefix.pch"; sourceTree = "<group>"; };
+		EA869EF4A590358B68F2890917587E79 /* NSManagedObjectContext+MagicalSaves.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalSaves.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.m"; sourceTree = "<group>"; };
+		EAE2CCEDC65EF166070A68A674CF9593 /* NSManagedObject+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.m"; sourceTree = "<group>"; };
+		F303FDB9058F0D77C923EF888235CA78 /* MagicalRecord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-umbrella.h"; sourceTree = "<group>"; };
 		F310732F01137787E0C802EA93EEC31B /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F604A73E38F83B4A312B81E7985C34CC /* NSManagedObjectContext+MagicalSaves.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalSaves.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.m"; sourceTree = "<group>"; };
-		F80686168F2CAD772FAAEDC378692D95 /* MagicalRecord+Options.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Options.m"; path = "MagicalRecord/Core/MagicalRecord+Options.m"; sourceTree = "<group>"; };
-		FF11C27613504906028D82F290BE48FF /* MagicalRecord+ShorthandMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ShorthandMethods.m"; path = "MagicalRecord/Core/MagicalRecord+ShorthandMethods.m"; sourceTree = "<group>"; };
+		F4AB6587BAC7351115F756B3BE86DF4A /* MagicalRecord+ShorthandMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ShorthandMethods.m"; path = "MagicalRecord/Core/MagicalRecord+ShorthandMethods.m"; sourceTree = "<group>"; };
+		F59E5B96E6EFDE1A13002FFE023E6AE5 /* XCDYouTubeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeKit.h; path = XCDYouTubeKit/XCDYouTubeKit.h; sourceTree = "<group>"; };
+		F902EAF3E0248273D392144D6B100BCF /* MagicalRecord+Actions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Actions.m"; path = "MagicalRecord/Core/MagicalRecord+Actions.m"; sourceTree = "<group>"; };
+		FA6F7D174D52A0BDCA7EDAF04B610503 /* MagicalRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-prefix.pch"; sourceTree = "<group>"; };
+		FA7C8194885BC568E267F775077BA2D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB40664101815B5D440B3025161AC9B3 /* XCDYouTubeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XCDYouTubeKit.modulemap; sourceTree = "<group>"; };
+		FD2A99640840216871C7289DD432FC22 /* NSEntityDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSEntityDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		FE9BC70F2C229AE4DDE28BEA7DFCBE36 /* MagicalRecord+ErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ErrorHandling.h"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,94 +325,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1652C1A07CACBD520C8C0438E1588237 /* CircleSlider */ = {
+		1DA978728E8AC2B79B6C1CD459083FF0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3D0AB7CE1408DF3004838F1ACC1FC87A /* CircleSlider.swift */,
-				39CB726A54B32EA29B986BD69C1233C4 /* Math.swift */,
-				88E3317AA7B52CC6C7D943B64CC76F43 /* TrackLayer.swift */,
-				8064BF6A4BCC0CEF48AE07A7C64FDBCE /* Support Files */,
-			);
-			path = CircleSlider;
-			sourceTree = "<group>";
-		};
-		1E05DEF754072F1A6AB5584EB969D66D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				634AAAD3DCC5311D597076BD5DC28BC3 /* FillableLoaders.modulemap */,
-				828233A93C56967E6DAD44262DBED084 /* FillableLoaders.xcconfig */,
-				2FCA1794770D6E0212DC7F2F6114E712 /* FillableLoaders-dummy.m */,
-				2CE2944BFC025526B12E49B5B0D1F5C8 /* FillableLoaders-prefix.pch */,
-				404D9102F079E12BF5CBCAFE870BFECD /* FillableLoaders-umbrella.h */,
-				AC8ABDEAA7BBE72FF035E07B3708B716 /* Info.plist */,
+				10F98E799DDC50FDB2EF0AA0B26A76BB /* Info.plist */,
+				FB40664101815B5D440B3025161AC9B3 /* XCDYouTubeKit.modulemap */,
+				32FF8723548D7ABA7473384CE2DE2C68 /* XCDYouTubeKit.xcconfig */,
+				891EC4DE0C0D323621FABD5AF588716D /* XCDYouTubeKit-dummy.m */,
+				E8C9CE840DF0381F200604D8FC599B26 /* XCDYouTubeKit-prefix.pch */,
+				55953F450D9214DAE2FE948BD1C7B8FC /* XCDYouTubeKit-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Pods/Target Support Files/FillableLoaders";
-			sourceTree = "<group>";
-		};
-		208879B62E8E1510ADCEC553B109C228 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				41FD1897B2FA7164A843E474085FA250 /* MagicalImportFunctions.h */,
-				08022F803F99A6E9DEA96A57D94AA8FC /* MagicalImportFunctions.m */,
-				9ABC1B08F741451A547040A0DF73581C /* MagicalRecord.h */,
-				70C693AEEDA719B939CC3FBFC612D812 /* MagicalRecord+Actions.h */,
-				9CD6CB0A28BB1BC507CC1945C3CD1AA6 /* MagicalRecord+Actions.m */,
-				CED1A88FF493E34F46ED19A799540A02 /* MagicalRecord+ErrorHandling.h */,
-				5C77FF1BBFF78FC79BED71DA11E1C7BF /* MagicalRecord+ErrorHandling.m */,
-				28A4FB23029F6D1041632175944A28D3 /* MagicalRecord+iCloud.h */,
-				214A09484EDC894E467F9271C68970DA /* MagicalRecord+iCloud.m */,
-				CD96815E9B002A6A23D27B5610C3BCF3 /* MagicalRecord+Options.h */,
-				F80686168F2CAD772FAAEDC378692D95 /* MagicalRecord+Options.m */,
-				4A26164EAFDE8D1E6D54BB7B99B4B396 /* MagicalRecord+Setup.h */,
-				D367AF72A003C2CE1A86B250AE61B19A /* MagicalRecord+Setup.m */,
-				040F923808530660A745A0ED9AF9FF5C /* MagicalRecord+ShorthandMethods.h */,
-				FF11C27613504906028D82F290BE48FF /* MagicalRecord+ShorthandMethods.m */,
-				A3331DE20BE64AF905708A4003E04E7B /* MagicalRecordDeprecationMacros.h */,
-				19FB3EDAF98673E7A0ABEB201D4B77A9 /* MagicalRecordInternal.h */,
-				BB1EC564053B71C42843B4DFC2335DCA /* MagicalRecordInternal.m */,
-				130294927F6EF1007620E67ADD8ED1B2 /* MagicalRecordLogging.h */,
-				94B616BDE1AFEB6E4B71F12644724982 /* MagicalRecordXcode7CompatibilityMacros.h */,
-				E6191C037CB040F28C8289AE99670CCA /* NSAttributeDescription+MagicalDataImport.h */,
-				0E44B9022509FC6F1CD1880D8DCEFEA7 /* NSAttributeDescription+MagicalDataImport.m */,
-				426432A33F3741E158055136C500323B /* NSEntityDescription+MagicalDataImport.h */,
-				90CDD64E06457D4484BF1E1124745EEE /* NSEntityDescription+MagicalDataImport.m */,
-				01CFE3EA4DE76458FBF4316502F30461 /* NSManagedObject+MagicalAggregation.h */,
-				C0E0A6A13644940FF93D5E3D3CF4AE64 /* NSManagedObject+MagicalAggregation.m */,
-				9FA283CD7872F3A1CADD919B0E2961AC /* NSManagedObject+MagicalDataImport.h */,
-				33B105BAD5FB696462CDB9F34DE04363 /* NSManagedObject+MagicalDataImport.m */,
-				59FACB1F6B035EB8A0F46121C3E6A662 /* NSManagedObject+MagicalFinders.h */,
-				01004075B8E9D5A9DEA8B4C35A9454E6 /* NSManagedObject+MagicalFinders.m */,
-				15029D21DC3469E91984F0BA5CCD7C38 /* NSManagedObject+MagicalRecord.h */,
-				8D229A0C35115B037BF717786FC3126D /* NSManagedObject+MagicalRecord.m */,
-				29676309B5EF33CCBF8D218365C0EE21 /* NSManagedObject+MagicalRequests.h */,
-				2B11B9CB564C7807AC3BEE86F88E5B36 /* NSManagedObject+MagicalRequests.m */,
-				EFBE8364F26FE574A6E98E40AF86E917 /* NSManagedObjectContext+MagicalChainSave.h */,
-				CC713B063C06153F5C441CC249F785C2 /* NSManagedObjectContext+MagicalChainSave.m */,
-				BAFC370F7A336DEC4876858CAF12F637 /* NSManagedObjectContext+MagicalObserving.h */,
-				C69F8583EBE986229512E55CE4081677 /* NSManagedObjectContext+MagicalObserving.m */,
-				C8758C49D8EEB8508CA16891F8E6DDE7 /* NSManagedObjectContext+MagicalRecord.h */,
-				4E8BE0D4C4D1F13208FC368E4390E18F /* NSManagedObjectContext+MagicalRecord.m */,
-				B7D1E21A308E9AD570A72BFFA52A34F4 /* NSManagedObjectContext+MagicalSaves.h */,
-				F604A73E38F83B4A312B81E7985C34CC /* NSManagedObjectContext+MagicalSaves.m */,
-				DDD5074563AB67A436289D1052F68DFF /* NSManagedObjectContext+MagicalThreading.h */,
-				51405BC1164F28280A0E1CB80A82A86A /* NSManagedObjectContext+MagicalThreading.m */,
-				72895ECD7E8BBAA5FB7C419444955072 /* NSManagedObjectModel+MagicalRecord.h */,
-				C278892EA100C0BDCA2162BCE25E1E94 /* NSManagedObjectModel+MagicalRecord.m */,
-				7DE694080F5829121F36E82E214EE4C8 /* NSNumber+MagicalDataImport.h */,
-				67709AAB91FE83E111D5F731E8685D37 /* NSNumber+MagicalDataImport.m */,
-				59EE9116ADF2348C43E1823549684CEC /* NSObject+MagicalDataImport.h */,
-				544BFD88B3C06C597E6B26BD9D9FDECE /* NSObject+MagicalDataImport.m */,
-				78B2DC549B03A265592925D15A58C36A /* NSPersistentStore+MagicalRecord.h */,
-				9B37D23FF06F8832CE5839C245BA9F05 /* NSPersistentStore+MagicalRecord.m */,
-				E1B65A04E2C3C7AFE6CEA658B5D77E6B /* NSPersistentStoreCoordinator+MagicalRecord.h */,
-				ED247F1CFA871BD16F8B290A9161D111 /* NSPersistentStoreCoordinator+MagicalRecord.m */,
-				4F20E7AFD62276763A0EA0AEE37D1B80 /* NSRelationshipDescription+MagicalDataImport.h */,
-				2FDC533FFC80C25165C164A05FB457E8 /* NSRelationshipDescription+MagicalDataImport.m */,
-				04B88C164C9A1978EF72A98FB1F31F74 /* NSString+MagicalDataImport.h */,
-				145C89A3E849C93D242F68BF748371BF /* NSString+MagicalDataImport.m */,
-			);
-			name = Core;
+			path = "../Target Support Files/XCDYouTubeKit";
 			sourceTree = "<group>";
 		};
 		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
@@ -423,65 +347,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		22CE0BE8FEB7401593F0EC9789F5C7C9 /* XCDYouTubeKit */ = {
-			isa = PBXGroup;
-			children = (
-				28A28734095757FB5CB41AC1F7B336A4 /* XCDYouTubeClient.h */,
-				7F40FBC80FD31DA91EFAC008658AAB56 /* XCDYouTubeClient.m */,
-				9ED038AD0C7AF5098EE976FE4277B6EF /* XCDYouTubeError.h */,
-				EB380DC9F9633EC3CE26AA2D00D7C6DB /* XCDYouTubeKit.h */,
-				527EA2F6E67D1EF282983FCC8120089D /* XCDYouTubeLogger.h */,
-				ECD31019CD5D8DE33A1C087CE9C6A61F /* XCDYouTubeLogger.m */,
-				8355F50B8160DF7BC98080B2108B7CCD /* XCDYouTubeLogger+Private.h */,
-				A7F0C571F5F3D5A216AD3E1134245C34 /* XCDYouTubeOperation.h */,
-				3782414D1E3C6F8DA0AB7A295ABB05E6 /* XCDYouTubePlayerScript.h */,
-				E17886EA3EC882D3A8632FBE1D08968F /* XCDYouTubePlayerScript.m */,
-				EDDE609730F73575749CBB74D3CB69A0 /* XCDYouTubeVideo.h */,
-				987212A8805482DD59994D9451C68778 /* XCDYouTubeVideo.m */,
-				38934AD71CE85D54D235193022F2F6D0 /* XCDYouTubeVideo+Private.h */,
-				A399BCE490F203659CCE494FC032003A /* XCDYouTubeVideoOperation.h */,
-				B3B1997F6BB0D85DC3307E8DDB814E89 /* XCDYouTubeVideoOperation.m */,
-				C7EB2A70CA2C1071CCA3D38CF4CB3CEF /* XCDYouTubeVideoPlayerViewController.h */,
-				46D4154126DF08341BE966BFB65E3FCF /* XCDYouTubeVideoPlayerViewController.m */,
-				BD55CBD6DF70A230272777B52F026291 /* XCDYouTubeVideoWebpage.h */,
-				D030C5FF31617B56B6A69A6A4C041B1B /* XCDYouTubeVideoWebpage.m */,
-				CC1A8CAC0A23D83F78112AB1F974F07F /* Support Files */,
-			);
-			path = XCDYouTubeKit;
-			sourceTree = "<group>";
-		};
-		2AC0B27D976D451009931878D81CF4AD /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				46C96B6D2EBBC59972857663BAD0A905 /* FillableLoaders */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		312CEF7834C111A8E45C702509ADF144 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				822C17CFA2008703FC7BA9B0A2877FFF /* Info.plist */,
-				778B29170A739D15F0B16259FA5F25EA /* MagicalRecord.modulemap */,
-				1909E30F83C066324EA77395B55ECC03 /* MagicalRecord.xcconfig */,
-				E5453989AFC65E6A6E5543CCC33672AD /* MagicalRecord-dummy.m */,
-				CD7ECCD5BBF6BD993187D30C6BEF3C85 /* MagicalRecord-prefix.pch */,
-				3C8323803F03DD752E6905CE838DAEEE /* MagicalRecord-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MagicalRecord";
-			sourceTree = "<group>";
-		};
-		46C96B6D2EBBC59972857663BAD0A905 /* FillableLoaders */ = {
-			isa = PBXGroup;
-			children = (
-				FBC1674C71EAA4CF35217FE874D1DCA3 /* Source */,
-				1E05DEF754072F1A6AB5584EB969D66D /* Support Files */,
-			);
-			name = FillableLoaders;
-			path = ../FillableLoaders;
-			sourceTree = "<group>";
-		};
 		6C8949BA6F44019AFA34005FD2BA222B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,39 +355,122 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		75E6DE1924CD92B0C32D68333F5FB3E3 /* MagicalRecord */ = {
+		70FD061FAA6F38FE197097DE6336626D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				208879B62E8E1510ADCEC553B109C228 /* Core */,
-				312CEF7834C111A8E45C702509ADF144 /* Support Files */,
+				FA7C8194885BC568E267F775077BA2D7 /* Info.plist */,
+				D4D245255777F810699A2E4E893CCAD2 /* MagicalRecord.modulemap */,
+				16656C62A2C687DCE2922731C4F220E9 /* MagicalRecord.xcconfig */,
+				D5F301CD42B1A5D1163F379CF41C427E /* MagicalRecord-dummy.m */,
+				FA6F7D174D52A0BDCA7EDAF04B610503 /* MagicalRecord-prefix.pch */,
+				F303FDB9058F0D77C923EF888235CA78 /* MagicalRecord-umbrella.h */,
 			);
-			path = MagicalRecord;
+			name = "Support Files";
+			path = "../Target Support Files/MagicalRecord";
+			sourceTree = "<group>";
+		};
+		71AEE813DAF3455EBF3733200E31D5AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58362087A0109C17F9836BF54A8B1013 /* FillableLoaders.modulemap */,
+				E7ABC4F1D10124EF24014829A5C460DD /* FillableLoaders.xcconfig */,
+				C91F6C9CCCFC99C81F211781AF93A643 /* FillableLoaders-dummy.m */,
+				5390F24E758954CA1C67DD4D0AFFF189 /* FillableLoaders-prefix.pch */,
+				732CA9DF0F71CF89EF3444A84C290273 /* FillableLoaders-umbrella.h */,
+				3333DAB4E87B9F08D8737528C8D23BF0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FillableLoaders";
+			sourceTree = "<group>";
+		};
+		7BB57FB6EEB7F761386FE1C73B8D5B2F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				79634083C9BC802823EA6C79FF8A3E68 /* MagicalImportFunctions.h */,
+				BC81BD545764988F3DEAE96442610045 /* MagicalImportFunctions.m */,
+				D61CCF5408F4E0A07EB7B593C9078092 /* MagicalRecord.h */,
+				1C263E33C1382DA1436D4268BA1C1FC3 /* MagicalRecord+Actions.h */,
+				F902EAF3E0248273D392144D6B100BCF /* MagicalRecord+Actions.m */,
+				FE9BC70F2C229AE4DDE28BEA7DFCBE36 /* MagicalRecord+ErrorHandling.h */,
+				240855172FCD5DC62BA2DFB8DDF3A5CF /* MagicalRecord+ErrorHandling.m */,
+				C9BBA17AFFBFF4F5B28C6075F5646172 /* MagicalRecord+iCloud.h */,
+				2664656CFC34E6F0D82B9074A92A3E1E /* MagicalRecord+iCloud.m */,
+				46201294E8438827C0C38B7514F8634B /* MagicalRecord+Options.h */,
+				343715339D76FB53F8C2FF10BA2E1444 /* MagicalRecord+Options.m */,
+				9A4EF754657A71A72CAF34E82BB15D92 /* MagicalRecord+Setup.h */,
+				47417ECDC8825CC206587F0532A186BE /* MagicalRecord+Setup.m */,
+				59ED307F437352BA0F4334BF5679A5D7 /* MagicalRecord+ShorthandMethods.h */,
+				F4AB6587BAC7351115F756B3BE86DF4A /* MagicalRecord+ShorthandMethods.m */,
+				9CF32991CF6A98ABE8FC91FF61271B83 /* MagicalRecordDeprecationMacros.h */,
+				2E15DFA11D83994C3D0148122FF35381 /* MagicalRecordInternal.h */,
+				362A274BE5DAE91559314CF262F26E63 /* MagicalRecordInternal.m */,
+				56370FE4156A255B72A3DAF1FF08BD45 /* MagicalRecordLogging.h */,
+				A269E1C7003B0848AF283015DA75A333 /* MagicalRecordXcode7CompatibilityMacros.h */,
+				E6D381843F7E6E79B6D571F345074EC8 /* NSAttributeDescription+MagicalDataImport.h */,
+				93A4D01A425BCC6B9D75EE9C9F109972 /* NSAttributeDescription+MagicalDataImport.m */,
+				9F4E6769173C540662BE54FF138357DD /* NSEntityDescription+MagicalDataImport.h */,
+				FD2A99640840216871C7289DD432FC22 /* NSEntityDescription+MagicalDataImport.m */,
+				2CE61A07067922EE8CEBE0ED375A0640 /* NSManagedObject+MagicalAggregation.h */,
+				16E0516CE8A8245155DA0D1EA6269DD4 /* NSManagedObject+MagicalAggregation.m */,
+				93E77CA04950513053CA160355BB318F /* NSManagedObject+MagicalDataImport.h */,
+				E1C3814CDBDD4F5699F62CDCABBF31DB /* NSManagedObject+MagicalDataImport.m */,
+				1631DED922389C42E4EAC796A1C5373A /* NSManagedObject+MagicalFinders.h */,
+				C031618DC23ABB19B0A82643EEB400CA /* NSManagedObject+MagicalFinders.m */,
+				0138A5457D6F06235FD2D22FF33F7E5C /* NSManagedObject+MagicalRecord.h */,
+				EAE2CCEDC65EF166070A68A674CF9593 /* NSManagedObject+MagicalRecord.m */,
+				23D86299B33CEAA9AF057AB07DF828A7 /* NSManagedObject+MagicalRequests.h */,
+				219AFF9B3971A95ABE1AA16C896196CD /* NSManagedObject+MagicalRequests.m */,
+				CE13924B55EE9D09D5C48885920A302E /* NSManagedObjectContext+MagicalChainSave.h */,
+				489997F05AD1BB13DD32C7C75FF50F1A /* NSManagedObjectContext+MagicalChainSave.m */,
+				7A80C06D3577F9E98078B443BF827F57 /* NSManagedObjectContext+MagicalObserving.h */,
+				666AC5A6514432433F9F4A0630C2EC70 /* NSManagedObjectContext+MagicalObserving.m */,
+				E46201D521A44F02C3F30A66ABBF498D /* NSManagedObjectContext+MagicalRecord.h */,
+				24DFD157573813BFBF49C9D8AB79747F /* NSManagedObjectContext+MagicalRecord.m */,
+				DB17733345FFDD119AA6EBF8CB877852 /* NSManagedObjectContext+MagicalSaves.h */,
+				EA869EF4A590358B68F2890917587E79 /* NSManagedObjectContext+MagicalSaves.m */,
+				292C6E10A52190796EA611F520B50F94 /* NSManagedObjectContext+MagicalThreading.h */,
+				17902E056E0C087C12CDF15CD422A1FF /* NSManagedObjectContext+MagicalThreading.m */,
+				2FC8A8A349C4F9776452FECFE599C98D /* NSManagedObjectModel+MagicalRecord.h */,
+				46AB58A9A2BD4F2CBF5FA50F28B8A2CE /* NSManagedObjectModel+MagicalRecord.m */,
+				059B2CBE1CAA02F7395938E1A6099E4A /* NSNumber+MagicalDataImport.h */,
+				74A515357AD5563EACC684FCD1298192 /* NSNumber+MagicalDataImport.m */,
+				7295135ABC7C777B5F4BF5EA2527942E /* NSObject+MagicalDataImport.h */,
+				84777D0FC6962CF690455B273F2E1E9C /* NSObject+MagicalDataImport.m */,
+				1FAB65D308F9A8F810CD997F4493B43E /* NSPersistentStore+MagicalRecord.h */,
+				7F0A0AC9030216372068BB8D00E55604 /* NSPersistentStore+MagicalRecord.m */,
+				E21522AA3B0E21CABE4879774BA3D9BF /* NSPersistentStoreCoordinator+MagicalRecord.h */,
+				6F5358D0B970822C98FB79432E339080 /* NSPersistentStoreCoordinator+MagicalRecord.m */,
+				5FFC3EA93035AFF401BD7F90E031A861 /* NSRelationshipDescription+MagicalDataImport.h */,
+				2973E1BDDE60DD45CD05C97B5E6EA940 /* NSRelationshipDescription+MagicalDataImport.m */,
+				BDE0ADAFB49D3207029487167F26970C /* NSString+MagicalDataImport.h */,
+				576001ED2B053E1C55D7DFC855F8D2E3 /* NSString+MagicalDataImport.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7D5891800730EC894211DF9E42AF1F1F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2361C87613F18E1F41F6870674D5DC2E /* CircleSlider.modulemap */,
+				1D5845721FC4D3E79989E8043C418B56 /* CircleSlider.xcconfig */,
+				448F166B895FBE2A0ECD8DD003EBDD00 /* CircleSlider-dummy.m */,
+				5A23E7E4DBECE74352F2A562794844BA /* CircleSlider-prefix.pch */,
+				54554332E05A66B5CDDE8AA82A2BAB4D /* CircleSlider-umbrella.h */,
+				7D83D42BD9E72601991E1EBF61F57BB9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircleSlider";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				2AC0B27D976D451009931878D81CF4AD /* Development Pods */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
-				9BF7CC8EE2C03BE2C30823480B598248 /* Pods */,
+				D23B218F101872A40D441246DFFF7D5E /* Pods */,
 				99BF07C06078F8C27BBDC3F31226C1F4 /* Products */,
 				6C8949BA6F44019AFA34005FD2BA222B /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8064BF6A4BCC0CEF48AE07A7C64FDBCE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				778BCE87A3BF2B485AE6A8705B3930CA /* CircleSlider.modulemap */,
-				0B6260F0AEB808DB503D08E17F7D9C16 /* CircleSlider.xcconfig */,
-				B0BE52902AAD2920E20F378C8B7A2CB5 /* CircleSlider-dummy.m */,
-				222E589E641B59B57297980A6A022207 /* CircleSlider-prefix.pch */,
-				0996B3E98E091F7BBAE499BDE4E34D37 /* CircleSlider-umbrella.h */,
-				0BC5ADAA44BCA72539937FEFAAFBD3F5 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CircleSlider";
 			sourceTree = "<group>";
 		};
 		99BF07C06078F8C27BBDC3F31226C1F4 /* Products */ = {
@@ -537,14 +485,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9BF7CC8EE2C03BE2C30823480B598248 /* Pods */ = {
+		9ED00103C2A378D9B734A2C6ACA6B86E /* FillableLoaders */ = {
 			isa = PBXGroup;
 			children = (
-				1652C1A07CACBD520C8C0438E1588237 /* CircleSlider */,
-				75E6DE1924CD92B0C32D68333F5FB3E3 /* MagicalRecord */,
-				22CE0BE8FEB7401593F0EC9789F5C7C9 /* XCDYouTubeKit */,
+				1FE064D3276A811A51ECD1309BDCF978 /* FillableLoader.swift */,
+				C186AC31C05B7C2A7EC0F746F8D5060E /* PlainLoader.swift */,
+				B025349F5481424886A7BF8D37E22048 /* RoundedLoader.swift */,
+				C2A04DE2425744D70F445D809A49C92D /* SpikeLoader.swift */,
+				288AC62FF475674502565DB1681D4E5A /* WavesLoader.swift */,
+				71AEE813DAF3455EBF3733200E31D5AF /* Support Files */,
 			);
-			name = Pods;
+			path = FillableLoaders;
+			sourceTree = "<group>";
+		};
+		A12100464BEE7BE6A87513265394B27E /* XCDYouTubeKit */ = {
+			isa = PBXGroup;
+			children = (
+				20801F193F8CF2AFD6831B03C7534970 /* XCDYouTubeClient.h */,
+				1CDCC995DE2EFAB6F8E97B5813397898 /* XCDYouTubeClient.m */,
+				AE819BA177BC8A7ACB071484C6EF1F05 /* XCDYouTubeError.h */,
+				F59E5B96E6EFDE1A13002FFE023E6AE5 /* XCDYouTubeKit.h */,
+				A910C60847A22BD1DC56A7B53CDE0A41 /* XCDYouTubeLogger.h */,
+				87E61D785101ED6D07C545901D6060ED /* XCDYouTubeLogger.m */,
+				0F7FB234E3ACAB940E8603653FC66C2B /* XCDYouTubeLogger+Private.h */,
+				D081B3C1395D977FC6BEBC6EA19E151D /* XCDYouTubeOperation.h */,
+				4F2A32068088FA7E617F3667A93EEBC4 /* XCDYouTubePlayerScript.h */,
+				A724140A3CF241F6DF1C09725C11FB1A /* XCDYouTubePlayerScript.m */,
+				60A950D7BD588C8193AED2366D0483EE /* XCDYouTubeVideo.h */,
+				026F09526BB88E6D1B0FA1536E0623FB /* XCDYouTubeVideo.m */,
+				33CDF685F6CEDFF52927885DBB5C3828 /* XCDYouTubeVideo+Private.h */,
+				91C686D5621E8A15438C9920C72EBD0F /* XCDYouTubeVideoOperation.h */,
+				6460AA4A1F8612EB90992FA55F2CF9B2 /* XCDYouTubeVideoOperation.m */,
+				E8C39A89C6C2D2934C1517C746758577 /* XCDYouTubeVideoPlayerViewController.h */,
+				6949AF865C23BF4459004ACDFF52755C /* XCDYouTubeVideoPlayerViewController.m */,
+				2798374D89B044283BDA0853A32C8F55 /* XCDYouTubeVideoWebpage.h */,
+				B98F7F3A176D7D2E09F7A4E812803D3A /* XCDYouTubeVideoWebpage.m */,
+				1DA978728E8AC2B79B6C1CD459083FF0 /* Support Files */,
+			);
+			path = XCDYouTubeKit;
 			sourceTree = "<group>";
 		};
 		AEE3865FBDB7E59846832C721FA71CFC /* Pods-Soundfull */ = {
@@ -577,30 +555,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CC1A8CAC0A23D83F78112AB1F974F07F /* Support Files */ = {
+		CEAE942378D343790AD938E25848F95A /* CircleSlider */ = {
 			isa = PBXGroup;
 			children = (
-				4C4BECFBF88DF1255874A3E4F2F159D2 /* Info.plist */,
-				8152EF0A87FAD218159808F036D750EB /* XCDYouTubeKit.modulemap */,
-				06D300F01D0C9C07275F4A1EF10EBBD3 /* XCDYouTubeKit.xcconfig */,
-				0D69BD55671223B8365F64EA514CB88F /* XCDYouTubeKit-dummy.m */,
-				821AA217E2C4AC0AA1129349058D647C /* XCDYouTubeKit-prefix.pch */,
-				9A313645B5235B13D50EADA0CE2DA7C9 /* XCDYouTubeKit-umbrella.h */,
+				BFDA71C9446446D0480E95AB6743F58D /* CircleSlider.swift */,
+				D3543A58B28C6CCFD68A2236766DEEEF /* Math.swift */,
+				47D6331CCFB9AA0950D3CFFF43989387 /* TrackLayer.swift */,
+				7D5891800730EC894211DF9E42AF1F1F /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/XCDYouTubeKit";
+			path = CircleSlider;
 			sourceTree = "<group>";
 		};
-		FBC1674C71EAA4CF35217FE874D1DCA3 /* Source */ = {
+		D23B218F101872A40D441246DFFF7D5E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				886DFE2B8FE95C7248F2A0A1351C0ED1 /* FillableLoader.swift */,
-				DC4106D3E9F3A5DB91ED476C0F9C308C /* PlainLoader.swift */,
-				9EF93ACF288A5C78F9C25938451420A3 /* RoundedLoader.swift */,
-				842BE5C5C0751BBD698B1D32EB6741BF /* SpikeLoader.swift */,
-				C9870D658AF7C2CD8978DFD2C549394D /* WavesLoader.swift */,
+				CEAE942378D343790AD938E25848F95A /* CircleSlider */,
+				9ED00103C2A378D9B734A2C6ACA6B86E /* FillableLoaders */,
+				E78B9281E7337A543244F0C623456CD1 /* MagicalRecord */,
+				A12100464BEE7BE6A87513265394B27E /* XCDYouTubeKit */,
 			);
-			path = Source;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E78B9281E7337A543244F0C623456CD1 /* MagicalRecord */ = {
+			isa = PBXGroup;
+			children = (
+				7BB57FB6EEB7F761386FE1C73B8D5B2F /* Core */,
+				70FD061FAA6F38FE197097DE6336626D /* Support Files */,
+			);
+			path = MagicalRecord;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -768,7 +751,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DDC809D4917732A992ED7FCC83080EF /* Build configuration list for PBXNativeTarget "FillableLoaders" */;
 			buildPhases = (
-				0022ACD95A0BB8E35AE726AAD9A64BBD /* Sources */,
+				7A0E5D9403CB7DD7BB156A7E00C777B0 /* Sources */,
 				A4347BD4A31959E36B875F55B56D1817 /* Frameworks */,
 				6501B863033FBDB505BD3FC6A1A2A8E2 /* Headers */,
 			);
@@ -812,19 +795,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0022ACD95A0BB8E35AE726AAD9A64BBD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E97D74EA7FEC699A677881FF1FAC2415 /* FillableLoader.swift in Sources */,
-				596BB1074E1F0B0644F2F8BE3E6D7239 /* FillableLoaders-dummy.m in Sources */,
-				DAF3633C8655ADCD6D1BD0EB85767E40 /* PlainLoader.swift in Sources */,
-				51FCB5C90DAB985CC66364FFBA0E67BB /* RoundedLoader.swift in Sources */,
-				12FA0F5B85EC0246490CB3938F25B64D /* SpikeLoader.swift in Sources */,
-				C3019AF5794325C0FD3A62FE12F52E12 /* WavesLoader.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		024C80E98ED1D372DFE973662D59877D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -879,6 +849,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A0E5D9403CB7DD7BB156A7E00C777B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396E4F2A17F44CA9121538B402A738DB /* FillableLoader.swift in Sources */,
+				490AD6C54BA1FBDD549902EEE0AFC33F /* FillableLoaders-dummy.m in Sources */,
+				8BC30C030954815CE610845CC7BE974C /* PlainLoader.swift in Sources */,
+				0129471B6DF033904DCC8F8A923F385C /* RoundedLoader.swift in Sources */,
+				2774A9C89171720C1F8F46FAFD63FC6D /* SpikeLoader.swift in Sources */,
+				E0AF9067509F777C9C00D6597DCF1F9A /* WavesLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91B9444B3308DDB68CAA8D2DAF2B6256 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -926,7 +909,7 @@
 /* Begin XCBuildConfiguration section */
 		24BDC94E5ABE9E2D41394B977CD82794 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 828233A93C56967E6DAD44262DBED084 /* FillableLoaders.xcconfig */;
+			baseConfigurationReference = E7ABC4F1D10124EF24014829A5C460DD /* FillableLoaders.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -953,7 +936,7 @@
 		};
 		321DEE45810A6E1BFE72C544EC6F1C49 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06D300F01D0C9C07275F4A1EF10EBBD3 /* XCDYouTubeKit.xcconfig */;
+			baseConfigurationReference = 32FF8723548D7ABA7473384CE2DE2C68 /* XCDYouTubeKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -980,7 +963,7 @@
 		};
 		38F62B7B0DA44FF2217759D1FDAB54A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 828233A93C56967E6DAD44262DBED084 /* FillableLoaders.xcconfig */;
+			baseConfigurationReference = E7ABC4F1D10124EF24014829A5C460DD /* FillableLoaders.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1008,7 +991,7 @@
 		};
 		3D57132CE8436037DACF09E21E3178EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1909E30F83C066324EA77395B55ECC03 /* MagicalRecord.xcconfig */;
+			baseConfigurationReference = 16656C62A2C687DCE2922731C4F220E9 /* MagicalRecord.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1035,7 +1018,7 @@
 		};
 		7EB219CE8F504ACD13CC991E31C71078 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1909E30F83C066324EA77395B55ECC03 /* MagicalRecord.xcconfig */;
+			baseConfigurationReference = 16656C62A2C687DCE2922731C4F220E9 /* MagicalRecord.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1062,7 +1045,7 @@
 		};
 		83E5F0E40E955F0E906C8BAB23812340 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B6260F0AEB808DB503D08E17F7D9C16 /* CircleSlider.xcconfig */;
+			baseConfigurationReference = 1D5845721FC4D3E79989E8043C418B56 /* CircleSlider.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1160,7 +1143,7 @@
 		};
 		AC16E39B186A81E65D37D2FF17BDC5DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06D300F01D0C9C07275F4A1EF10EBBD3 /* XCDYouTubeKit.xcconfig */;
+			baseConfigurationReference = 32FF8723548D7ABA7473384CE2DE2C68 /* XCDYouTubeKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1217,7 +1200,7 @@
 		};
 		DD572FA7755303003DFD505376D77F18 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B6260F0AEB808DB503D08E17F7D9C16 /* CircleSlider.xcconfig */;
+			baseConfigurationReference = 1D5845721FC4D3E79989E8043C418B56 /* CircleSlider.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

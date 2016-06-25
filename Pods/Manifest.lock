@@ -8,13 +8,18 @@ PODS:
 
 DEPENDENCIES:
   - CircleSlider
-  - FillableLoaders (from `FillableLoaders`)
+  - FillableLoaders (from `git@github.com:omaarr90/FillableLoaders.git`)
   - MagicalRecord
   - XCDYouTubeKit (~> 2.5)
 
 EXTERNAL SOURCES:
   FillableLoaders:
-    :path: FillableLoaders
+    :git: git@github.com:omaarr90/FillableLoaders.git
+
+CHECKOUT OPTIONS:
+  FillableLoaders:
+    :commit: 8d9e872aab9f4a2f3596b955635304f35d795a87
+    :git: git@github.com:omaarr90/FillableLoaders.git
 
 SPEC CHECKSUMS:
   CircleSlider: d1787626e7b8f20b3448ba256aa8a38f072a2640

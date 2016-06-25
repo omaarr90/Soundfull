@@ -16,7 +16,8 @@ public class FillableLoader: UIView {
     internal var animate: Bool = false
     internal var extraHeight: CGFloat = 0
     internal var oldYPoint: CGFloat = 0
-    internal let mainBgColor = UIColor(white: 0.2, alpha: 0.6)
+    //    internal let mainBgColor = UIColor(white: 0.2, alpha: 0.6)
+    internal let mainBgColor = UIColor.clearColor()
     internal weak var loaderSuperview: UIView?
     
     // MARK: Public Variables
@@ -109,7 +110,7 @@ public class FillableLoader: UIView {
             loaderView.layer.cornerRadius = newValue
         }
     }
-
+    
     /// Loader fill progress from 0.0 to 1.0 . It will automatically fire an animation to update the loader fill progress (Default: 0.0)
     public var progress: CGFloat {
         get { return _progress }
@@ -122,7 +123,7 @@ public class FillableLoader: UIView {
     
     
     // MARK: Initializers Methods
-
+    
     /**
     Creates and SHOWS a loader with the given path
     
@@ -136,25 +137,25 @@ public class FillableLoader: UIView {
         return loader
     }
     /**
-    Creates and SHOWS a progress based loader with the given path
-    
-    :param: path Loader CGPath
-    
-    :returns: The loader that's already being showed
-    */
+     Creates and SHOWS a progress based loader with the given path
+     
+     :param: path Loader CGPath
+     
+     :returns: The loader that's already being showed
+     */
     public static func showProgressBasedLoaderWithPath(path: CGPath, onView: UIView? = nil) -> Self {
-    let loader = createProgressBasedLoaderWithPath(path: path, onView: onView)
+        let loader = createProgressBasedLoaderWithPath(path: path, onView: onView)
         loader.showLoader()
         return loader
     }
     
     /**
-    Creates a loader with the given path
-    
-    :param: path Loader CGPath
-    
-    :returns: The created loader
-    */
+     Creates a loader with the given path
+     
+     :param: path Loader CGPath
+     
+     :returns: The created loader
+     */
     public static func createLoaderWithPath(path thePath: CGPath, onView: UIView? = nil) -> Self {
         let loader = self.init()
         loader.initialSetup(onView)
@@ -163,12 +164,12 @@ public class FillableLoader: UIView {
     }
     
     /**
-    Creates a progress based loader with the given path
-    
-    :param: path Loader CGPath
-    
-    :returns: The created loader
-    */
+     Creates a progress based loader with the given path
+     
+     :param: path Loader CGPath
+     
+     :returns: The created loader
+     */
     public static func createProgressBasedLoaderWithPath(path thePath: CGPath, onView: UIView? = nil) -> Self {
         let loader = self.init()
         loader.progressBased = true
@@ -193,7 +194,7 @@ public class FillableLoader: UIView {
         defaultValues()
         
         //Setting up loaderView
-        loaderView.frame = CGRectMake(frame.origin.x, frame.origin.y, frame.width, rectSize)
+        loaderView.frame = CGRectMake(frame.origin.x, frame.origin.y, frame.width, frame.height)
         loaderView.center = CGPointMake(CGRectGetWidth(frame)/2, CGRectGetHeight(frame)/2)
         loaderView.layer.cornerRadius = cornerRadius
         
@@ -210,8 +211,8 @@ public class FillableLoader: UIView {
         let center = bounds.origin
         let height = bounds.height
         let width = bounds.width
-        assert(height <= loaderView.frame.height, "The height(\(height)) of the path has to fit the dimensions (Height: \(loaderView.frame.height) Width: \(frame.width))")
-        assert(width <= loaderView.frame.height, "The width(\(width)) of the path has to fit the dimensions (Height: \(loaderView.frame.width) Width: \(frame.width))")
+        //        assert(height <= loaderView.frame.height, "The height(\(height)) of the path has to fit the dimensions (Height: \(loaderView.frame.height) Width: \(frame.width))")
+        //        assert(width <= loaderView.frame.height, "The width(\(width)) of the path has to fit the dimensions (Height: \(loaderView.frame.width) Width: \(frame.width))")
         var transformation = CGAffineTransformMakeTranslation(-center.x - width/2 + loaderView.frame.width/2, -center.y - height/2 + loaderView.frame.height/2)
         path = CGPathCreateCopyByTransformingPath(thePath, &transformation)
     }
@@ -236,8 +237,8 @@ public class FillableLoader: UIView {
     }
     
     /**
-    Stops loader animations and removes it from its superview
-    */
+     Stops loader animations and removes it from its superview
+     */
     public func removeLoader(animated: Bool = true) {
         let completion: () -> () = {
             self.hidden = false
@@ -289,7 +290,7 @@ public class FillableLoader: UIView {
         loaderView.layer.addSublayer(baseLayer)
         baseLayer.addSublayer(shapeLayer)
     }
-
+    
     internal func defaultValues() {
         duration = 10.0
         backgroundColor = UIColor.clearColor()
@@ -327,7 +328,7 @@ public class FillableLoader: UIView {
         shapeLayer.addAnimation(progressAnimation, forKey: "progress")
         oldYPoint = yPoint
     }
-
+    
     internal func startswinging() {
         let swingAnimation: CAKeyframeAnimation = CAKeyframeAnimation(keyPath: "transform.rotation.z")
         swingAnimation.values = [0, randomAngle(), -randomAngle(), randomAngle(), -randomAngle(), randomAngle(), 0]

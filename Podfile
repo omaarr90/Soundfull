@@ -6,7 +6,7 @@ use_frameworks!
 target 'Soundfull' do
 pod 'MagicalRecord'
 pod "XCDYouTubeKit", "~> 2.5"
-pod 'FillableLoaders', :path => 'FillableLoaders'
+pod 'FillableLoaders', :git => 'git@github.com:omaarr90/FillableLoaders.git'
 pod "CircleSlider"
 end
 
